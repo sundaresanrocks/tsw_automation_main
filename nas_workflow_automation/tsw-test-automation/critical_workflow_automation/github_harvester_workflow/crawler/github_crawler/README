@@ -1,0 +1,11 @@
+Requirements
+============
+- Python >= 2.7
+- Beautifulsoup4 (conda install)
+- ujson (conda install)
+
+CentOS 7 setup
+==============
+# yum install -y epel-release && yum update
+# yum install python-pip gcc python-devel
+# pip install ujson beautifulsoup4

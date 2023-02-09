@@ -1,0 +1,6 @@
+ftp
+./MrgEffitasHarvestWorkflow/properties/MrgEffitasHarvestWorkflowProvider.properties
+./MrgEffitasHarvestWorkflow/properties/MrgEffitasHarvestWorkflowSimpleWebPageWorker.properties
+./MrgEffitasHarvestWorkflow/properties/MrgEffitasHarvestWorkflowFactGenerator.properties
+./MrgEffitasHarvestWorkflow/properties/MrgEffitasHarvestWorkflowRuleDirectiveProcessor.properties
+./MrgEffitasHarvestWorkflow/properties/MrgEffitasHarvestWorkflowConsumer.properties

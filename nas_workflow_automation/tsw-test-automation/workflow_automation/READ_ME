@@ -1,0 +1,8 @@
+# In order to run the smoke automation please make sure to CHECKOUT 
+the 'workflow_automation' in side the /opt directory of your machine. 
+
+I.E: /opt/workflow_automation.
+
+Otherwise Automation will not run. 
+
+Thanks

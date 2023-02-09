@@ -1,0 +1,19 @@
+{
+  "u2" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "two",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "url",
+    "value" : "u2",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

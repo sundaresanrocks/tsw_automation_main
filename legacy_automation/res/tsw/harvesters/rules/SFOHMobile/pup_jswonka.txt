@@ -1,0 +1,1 @@
+SampleDBScorer	http://sn000331.ferozo.com/1x0veo7o.exe	typeflag=0	name=Unknown	md5=DE8D3A1539723172E051AFA43A10058E	type=PUP/JS/Wonka	seedUrl=http://sn000331.ferozo.com/1X0veo7o.exe

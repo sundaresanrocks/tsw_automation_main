@@ -1,0 +1,12 @@
+# Total:11 TS:1531918203 #
+2018-07-18 12:50:03|http://www.soussol.media/Jul2018/Dokumente/Fakturierung/Rechnung-GZ-73-40501|VBA/TrojanDownloader.Agent.JLT trojan|95bb317ade64b99f030c02737ad5f302|264704|US|160.153.138.176
+2018-07-18 12:49:45|http://xrvgt.info/tnb|Win32/Ramnit.A virus|8b427fc5cfa072a5dd3fda796484feac|218486|US|173.208.133.67
+2018-07-18 12:49:08|http://kaifax71.cc/bigshuju|Win32/Ramnit.A virus|d4a5565ffd78a2b068f1b3b45e7b15e8|114699|US|172.106.135.83
+2018-07-18 12:49:07|http://108.187.160.122/jff5d5_12132.html|Win32/Ramnit.A virus|059fe906eb011cabc4b154265997c177|168276|US|108.187.160.122
+2018-07-18 12:49:07|http://108.187.160.122/68771/|Win32/Ramnit.A virus|d578a360f3e1de4466a7040f33befb4c|158244|US|108.187.160.122
+2018-07-18 12:49:07|http://108.187.160.63/vpsedw_72784.html|Win32/Ramnit.A virus|80a55ffeebe746818c75189a0c50e154|157184|US|108.187.160.63
+2018-07-18 12:48:33|http://birds-rio.ml/payments|Application.CoinMiner.AY|7accff2e70048c0c729e0d80417dfdfb|5573|UA|176.114.0.30
+2018-07-18 12:48:25|http://22-pistepirkko.net/2016/02/card-of-4-songs|JS.IFrame.505|734eac280c2dfe7bf26be30f57b878cc|23411|US|35.195.133.51
+2018-07-18 12:48:25|http://www.22-pistepirkko.net/2016/02/card-of-4-songs/|JS.IFrame.505|734eac280c2dfe7bf26be30f57b878cc|23411|US|35.195.133.51
+2018-07-18 12:48:12|http://108.187.160.122/48841|Win32/Ramnit.A virus|a93f8e9d04a63e580fbf832820b67790|157114|US|108.187.160.122
+2018-07-18 12:48:11|http://ddfbg.info/jdd|Win32/Ramnit.A virus|635e3d67defe800dd3b3975a26eb9226|218622|US|173.208.133.68

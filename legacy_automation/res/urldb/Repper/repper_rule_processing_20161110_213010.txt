@@ -1,0 +1,3 @@
+http://no.:80	resultfact===IgnoreResultFact []memo=== []url===http://no.:80 []ruleMatched===(Salience=099999) Skip urls ending with dot []serialVersionUID===1|t|
+http://no.:80	resultfact===IgnoreResultFact []memo=== []url===http://no.:80 []ruleMatched===(Salience=099999) Skip urls ending with dot []serialVersionUID===1|t|
+http://no.:80	resultfact===IgnoreResultFact []memo=== []url===http://no.:80 []ruleMatched===(Salience=099999) Skip urls ending with dot []serialVersionUID===1|t|

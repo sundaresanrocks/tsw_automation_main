@@ -1,0 +1,6 @@
+dman - Domain/IP Transaction Manager - commandline tool
+Process pending Domain/IP Transactions.
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

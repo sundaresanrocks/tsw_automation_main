@@ -1,0 +1,18 @@
+$SOA 180 dev.null zone.surbl.org 1533805131 180 180 604800 180
+$TTL 180
+:127.0.0.2:Blocked, See: http://www.surbl.org/lists.html#multi
+test.surbl.org	:126:multi.surbl.org permanent test point
+test.multi.surbl.org	:126:multi.surbl.org permanent test point
+surbl-org-permanent-test-point.com	:126:multi.surbl.org permanent test point
+2.0.0.127	:126:multi.surbl.org permanent test point
+
+0-0-gg4ywnf1x.shop :127.0.0.64:Blocked, 0-0-gg4ywnf1x.shop on lists [abuse], See: http://www.surbl.org/lists
+0-0s-rw8gkdl-8ah.shop :127.0.0.64:Blocked, 0-0s-rw8gkdl-8ah.shop on lists [abuse], See: http://www.surbl.org/lists
+0-16p0ayje.jp :127.0.0.64:Blocked, 0-16p0ayje.jp on lists [abuse], See: http://www.surbl.org/lists
+0-1twky.asia :127.0.0.64:Blocked, 0-1twky.asia on lists [abuse], See: http://www.surbl.org/lists
+0-1w-05.net :127.0.0.64:Blocked, 0-1w-05.net on lists [abuse], See: http://www.surbl.org/lists
+0-238-7z.work :127.0.0.64:Blocked, 0-238-7z.work on lists [abuse], See: http://www.surbl.org/lists
+0-3553n-j04lwll.shop :127.0.0.64:Blocked, 0-3553n-j04lwll.shop on lists [abuse], See: http://www.surbl.org/lists
+0-36843-727.shop :127.0.0.64:Blocked, 0-36843-727.shop on lists [abuse], See: http://www.surbl.org/lists
+0-39e0o9.work :127.0.0.64:Blocked, 0-39e0o9.work on lists [abuse], See: http://www.surbl.org/lists
+0-3e89iyp.work :127.0.0.64:Blocked, 0-3e89iyp.work on lists [abuse], See: http://www.surbl.org/lists

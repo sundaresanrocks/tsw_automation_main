@@ -1,0 +1,28 @@
+			0
+01lm.com	Unknown Malware	MC	0
+039b1ee.netsolhost.com	ZeuS/WNSPoem/ZBot	ZT	0
+03a6b7a.netsolhost.com	ZeuS/WNSPoem/ZBot	ZT	0
+03a6f57.netsolhost.com	ZeuS/WNSPoem/ZBot	ZT	0
+03bbec4.netsolhost.com	ZeuS/WNSPoem/ZBot	ZT	0
+0if1nl6.org	ZeuS/WNSPoem/ZBot	ZT	0
+0koryu0.easter.ne.jp	obfuscated iframe directs to LuckySploit	MDL	0
+0x.x.gg	ZeuS/WNSPoem/ZBot	ZT	0
+109-204-26-16.netconnexion.managedbroadband.co.uk	Leads to exploit at jolygoestobeinvester.ru	MDL	0
+11.lamarianella.info	Blackhole exploit kit 2.0	MDL	0
+13343225565.com	Teslacrypt ransomware c&c	MDL	0
+14daystresscure.com	Locky ransomware	MDL	0
+1866809.securefastserver.com	Bot.C2	MDL	0
+1st.technology	ZeuS/WNSPoem/ZBot	ZT	0
+2amsports.com	Script.Exploit	MDL	0
+2biking.com	Locky ransomware	MDL/MC	0
+3.bluepointmortgage.com	Blackhole exploit kit 2.0	MDL	0
+3.coolerpillow.com	Blackhole exploit kit 2.0	MDL	0
+323trs.com	Unknown Malware	MC	0
+4.androidislamic.com	Blackhole exploit kit 2.0	MDL	0
+4.collecorvino.org	Blackhole exploit kit 2.0	MDL	0
+4.dlevo.com	Blackhole exploit kit 2.0	MDL	0
+4.e-why.net	Blackhole exploit kit 2.0	MDL	0
+4.newenergydata.biz	Blackhole exploit kit 2.0	MDL	0
+4.newenergydata.info	Blackhole exploit kit 2.0	MDL	0
+4.periziavela.com	Blackhole exploit kit 2.0	MDL	0
+zzz.hudconnecthome.org	Angler EK	MDL	0

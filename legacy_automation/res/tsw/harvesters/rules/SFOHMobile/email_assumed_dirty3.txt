@@ -1,0 +1,1 @@
+SampleDBScorer	http://smarteducation.org/admin/update-flash-player.exe	typeflag=0	name=Unknown	md5=74050E2112E4B6B6A22CD6364940DF77	type=assumed_dirty3	seedUrl=http://www.smarteducation.org/admin/update-flash-player.exe

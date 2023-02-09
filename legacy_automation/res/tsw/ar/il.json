@@ -1,0 +1,50 @@
+{"il" : {
+    "url": "http://www.mcafeetesting.net23.net/samples/cat-il.html",
+    "scorer_event_detail": {
+        "23":{
+            "sp": {
+                "threshold":"40",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "bu": {
+                "threshold":"30",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "gm": {
+                "threshold":"40",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "im": {
+                "threshold":"100",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "bl": {
+                "threshold":"50",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "sx": {
+                "threshold":"50",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "mk": {
+                "threshold":"30",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "il": {
+                "threshold":"50",
+                "rawscore":"722.7",
+                "score":"100.0"
+            }
+        }
+         }
+       
+ 
+    }
+}

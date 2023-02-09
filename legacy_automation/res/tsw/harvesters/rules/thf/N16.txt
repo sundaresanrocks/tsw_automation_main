@@ -1,0 +1,1 @@
+"EBAY",2013-01-20 06:38:14,0,"http://example.com/Path/cgi?a=b%5F87880","http%3A%2F%2Fexample.com%2FPath%2Fcgi%3Fa%3Db%255F87880",URL

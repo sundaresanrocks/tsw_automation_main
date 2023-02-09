@@ -1,0 +1,19 @@
+version: '2'
+services:
+  workflow:
+    build: .
+    image: github-harvester-workflow
+    container_name: github-harvester-workflow
+    command: /opt/sftools/bin/StartManagedWorkflow.sh /opt/sftools/conf/GithubCommitsHarvestWorkflow.properties        
+    volumes:
+      - ./GithubCommitsHarvestWorkflow.properties:/opt/sftools/conf/GithubCommitsHarvestWorkflow.properties
+      - ../crawler/downloads/:/data/webcache/workflows/harvesters/GithubCommitsHarvestWorkflow/src
+      - ./exe.model.rf_tr_1week_latest.rdata:/data/harvesters/urlharvest_trusted_model/exe.model.rf_tr_1week_latest.rdata
+      - ./urldb:/data/urldb
+      - ./tmp:/tmp
+    #ports:
+    #  - "4007:4007"
+
+volumes:
+  urldb:
+  tmp:

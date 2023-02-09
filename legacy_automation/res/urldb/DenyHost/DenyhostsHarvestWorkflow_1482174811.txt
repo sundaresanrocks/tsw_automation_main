@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<methodResponse>
+<params>
+<param>
+<value><struct>
+<member>
+<name>timestamp</name>
+<value><string>1482175263</string></value>
+</member>
+<member>
+<name>hosts</name>
+<value><array><data>
+<value><string>http://bit.ly/1oFbpGq</string></value>
+<value><string>http://bit.ly/1T60tyn</string></value>
+</data></array></value>
+</member>
+</struct></value>
+</param>
+</params>
+</methodResponse>

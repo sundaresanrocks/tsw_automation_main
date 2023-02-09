@@ -1,0 +1,2 @@
+SFDB middleware version: 4.3.2.02
+SDK version info: TrustedSource SDK 2.2.0.02 (Build 1342)

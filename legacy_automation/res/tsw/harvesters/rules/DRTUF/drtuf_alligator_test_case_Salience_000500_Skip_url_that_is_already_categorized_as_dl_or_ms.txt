@@ -1,0 +1,1 @@
+source=drtuf_alligator_exe_flat_lex	url=HTTP://DL.COMMENTCAMARCHE.NET:80/EN.KIOSKEA.NET/DOWNLOAD/FILES/MBAM-SETUP-1.51.EXE	confidence=1	label=1

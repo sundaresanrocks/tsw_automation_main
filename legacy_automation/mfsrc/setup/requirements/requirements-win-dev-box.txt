@@ -1,0 +1,4 @@
+-r requirements-core.txt
+-r requirements-win-agent.txt
+# -r requirements-linux-agent.txt
+-r requirements-django-server.txt

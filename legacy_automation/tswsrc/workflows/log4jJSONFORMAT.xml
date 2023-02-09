@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<!-- =====================================================================
+   -                                                                       
+   -  Standalone Program Log4j Configuration                               
+   -                                                                       
+   -  This file should hold all log4j configs for all SF Tools external    
+   -  (Non J2EE) programs. To configure log4j inside the J2EE container, 
+   -  edit the log4j.xml file under jboss/server/default/conf in the J2EE  
+   -  distribution.                                                        
+   -
+   -  Note: All file rotation is performed by external logrotate config.
+   -
+   -  Copyright (c) 2005-2009, Secure Computing Corporation. 
+   -  All rights reserved.
+   -                                                                       
+   -  $Id: log4j.xml 6472 2013-04-12 18:56:13Z jlaptavi $                
+   -                                                                       
+   -  ===================================================================== -->
+
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+   debug="true">
+
+   <!-- ================================================================== -->
+   <!-- Appenders                                                          -->
+   <!-- ================================================================== -->
+
+   <!-- Java harvesters use log4j to write to Hadoop log. -->
+   <appender name="HADOOP_HARVESTERS_FILE_APPENDER"
+       class="org.apache.log4j.FileAppender">
+       <errorHandler
+          class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+       <param name="File" value="/data/hdfs_staging/shared/harvesters/harvesters.txt" />
+       <param name="Append" value="true" />
+       <param name="Threshold" value="DEBUG" />
+       <layout class="org.apache.log4j.PatternLayout">
+           <param name="ConversionPattern"
+              value="%m%n" />
+       </layout>
+    </appender>
+
+   <!-- Java harvesters use log4j to write to Hadoop result log. -->
+   <appender name="HADOOP_HARVESTERS_RESULTS_FILE_APPENDER"
+       class="org.apache.log4j.FileAppender">
+       <errorHandler
+          class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+       <param name="File" value="/data/hdfs_staging/shared/harvesters/harvesters_results.txt" />
+       <param name="Append" value="true" />
+       <param name="Threshold" value="DEBUG" />
+       <layout class="org.apache.log4j.PatternLayout">
+           <param name="ConversionPattern"
+              value="%m%n" />
+       </layout>
+    </appender>
+
+   <!-- 
+      - Console Appender
+      -
+      - Writes all log messages to System.out
+      - This is for debug purposes only.
+   -->
+   <appender name="CONSOLE_APPENDER"
+      class="org.apache.log4j.ConsoleAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="Target" value="System.out" />
+      <param name="Threshold" value="DEBUG" />
+
+      <layout class="org.apache.log4j.PatternLayout">
+         <!-- 
+            - The default pattern for all appenders
+            -
+            - Date Level [Logger] class.method Message 
+         -->
+         <param name="ConversionPattern"
+            value='{"timestamp":"%d{yyyy-MM-dd}T%d{HH:mm:ss.SSS}Z", "logLevel": "%-5p", "loggerName":"%c" , "MethodName":"%C.%M", "message":"%m"}%n'  />
+
+      </layout>
+   </appender>
+
+   <!-- 
+      - Scheduler File Appender
+      -
+      - Log events to the scheduler's log file
+   -->
+   <appender name="SCHEDULER_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/scheduler.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!-- 
+      - WFA File Appender
+      -
+      - Log events to the wfa's log file
+   -->
+   <appender name="WFA_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/wfa.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - CatServer File Appender
+      -
+      - Log events to the CatServer's log file
+   -->
+   <appender name="CATSERVER_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/catserver.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="1000MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - UMS File Appender
+      -
+      - Log events to the log file for ums
+   -->
+   <appender name="UMS_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/ums.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!-- 
+      - SQM File Appender
+      - 
+      - Log events to sqm's log file
+   -->
+   <appender name="SQM_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/sqm.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - GUVNOR File Appender
+      -
+      - Log events to guvnor's log file
+   -->
+   <appender name="GUVNOR_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/gvunor.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Scorer File Appender
+      -
+      - Log events from the scorers to a log file
+   -->
+   <appender name="SCORER_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/scorers.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <appender name="MWG_NULL_APPENDER"
+      class="org.apache.log4j.varia.NullAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+   </appender>
+
+   <!--
+      - Webcache File Appender
+      -
+      - Log events from the scorers to a log file
+   -->
+   <appender name="WEBCACHE_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/webcache.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <appender name="COMMON_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/common.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+<!--
+      - Crawler File Appender
+      -
+      - Log events from the crawler to a log file
+   -->
+   <appender name="CRAWLER_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/crawler.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Agents File Appender
+      -
+      - Log events from the scorers to a log file
+   -->
+   <appender name="AGENT_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/agents.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Process Manager File Appender
+      -
+      - Log events from the process manager to a log file
+   -->
+   <appender name="PM_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/pm.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Harvester File Appender
+      - 
+      - Log events from the harvesters to a log file
+   -->
+   <appender name="HARVESTER_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/harvester.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="7" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="1000MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Harvester File Appender
+      - 
+      - Log events from the harvesters to a log file
+   -->
+   <appender name="DATAAGGREGATOR_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/DataAggregator.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="1000MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+
+   <!-- GTI Appender -->
+   <appender name="GTI_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/gti_client.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="DEBUG" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+
+   <!--
+      - WAUI File Appender
+      -
+      - Log events from the WAUI to a log file
+   -->
+   <appender name="WAUI_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/waui.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - HADOOP HARVEST File Appender
+      -
+      - Log events from the HADOOP-HARVEST to a log file
+   -->
+   <appender name="HADOOP_HARVESTER_FILE_APPENDER"
+       class="org.apache.log4j.RollingFileAppender">
+       <errorHandler
+          class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+       <param name="File" value="/opt/sftools/log/hadoop-harvest.log" />
+       <param name="Append" value="true" />
+       <param name="Threshold" value="DEBUG" />
+       <param name="MaxBackupIndex" value="10" />
+       <param name="ImmediateFlush" value="true" />
+       <param name="MaxFileSize" value="100MB" />
+       <layout class="org.apache.log4j.PatternLayout">
+           <param name="ConversionPattern"
+              value="%d %-5p [%c] %C.%M %m%n" />
+       </layout>
+    </appender>
+   <!--
+      - Syslog Appender
+      -
+      - Log events to the local syslog daemon
+   -->
+   <appender name="SYSLOG_APPENDER"
+      class="org.apache.log4j.net.SyslogAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="Threshold" value="INFO"/>
+      <param name="SyslogHost" value="splunk.research.sys"/>
+      <param name="Facility" value="LOCAL0"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%C{1}[]: %-5p [%c] %M %m%n" />
+      </layout>
+   </appender>
+
+   <!--
+      - Jboss File Appender
+      - 
+      - Log events from the harvesters to a log file
+   -->
+   <appender name="JBOSS_FILE_APPENDER"
+      class="org.apache.log4j.RollingFileAppender">
+      <errorHandler
+         class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+      <param name="File" value="/opt/sftools/log/jboss.log" />
+      <param name="Append" value="true" />
+      <param name="Threshold" value="INFO" />
+      <param name="MaxBackupIndex" value="10" />
+      <param name="ImmediateFlush" value="true" />
+      <param name="MaxFileSize" value="100MB" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+            value="%d %-5p [%c] %C.%M %m%n" />
+      </layout>
+   </appender>   
+
+   <!-- THF file appender - Logs event from THF Queues and THF API to a log file. -->
+   <appender name="THF_FILE_APPENDER" class="org.apache.log4j.RollingFileAppender">
+	<errorHandler class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+	<param name="File" value="/opt/sftools/log/thflogs.log" />
+	<param name="Append" value="true" />
+	<param name="Threshold" value="DEBUG" />
+        <param name="MaxBackupIndex" value="10" />
+        <param name="ImmediateFlush" value="true" />
+        <param name="MaxFileSize" value="1000MB" />
+	<layout class="org.apache.log4j.PatternLayout">
+	   <param name="ConversionPattern" value="%d %-5p [%c] %C.%M %m%n" />
+	</layout>
+  </appender>
+
+  <!-- Domain IP file appender - Logs event from Domain IP to a log file. -->
+   <appender name="DOMIP_FILE_APPENDER" class="org.apache.log4j.RollingFileAppender">
+        <errorHandler class="org.apache.log4j.helpers.OnlyOnceErrorHandler" />
+        <param name="File" value="/opt/sftools/log/domip.log" />
+        <param name="Append" value="true" />
+        <param name="Threshold" value="DEBUG" />
+        <param name="MaxBackupIndex" value="10" />
+        <param name="ImmediateFlush" value="true" />
+        <param name="MaxFileSize" value="1000MB" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p [%c] %C.%M %m%n" />
+        </layout>
+   </appender>
+
+   <!-- ================================================================== -->
+   <!-- Loggers                                                            -->
+   <!-- ================================================================== -->
+
+   <!-- Java harvesters use log4j to write to Hadoop log. -->
+   <logger name="hadoop.harvesters.input" additivity="true">
+      <appender-ref ref="HADOOP_HARVESTERS_FILE_APPENDER" />
+   </logger>
+
+   <!-- Java harvesters use log4j to write to Hadoop result log. -->
+   <logger name="hadoop.harvesters.results" additivity="true">
+      <appender-ref ref="HADOOP_HARVESTERS_RESULTS_FILE_APPENDER" />
+   </logger>
+
+   <!--
+      - Debug logger 
+      - 
+      - Logger to be used while debugging. 
+      - All messages are sent to System.out  
+      - 
+      - Note: This logger should not be used in production.
+   -->
+   
+<logger name="debug" additivity="false">
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.server.scheduler logger 
+      - 
+      - Logger to be used by the scheduler 
+   -->
+   <logger name="u2.server.scheduler" additivity="true">
+      <appender-ref ref="SCHEDULER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.server.wfa logger 
+      - 
+      - Logger to be used by the wfa 
+   -->
+   <logger name="u2.server.wfa" additivity="true">
+      <appender-ref ref="WFA_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.server.guvnor logger
+      -
+      - Logger to be used by the guvnor
+   -->
+   <logger name="u2.server.guvnor" additivity="true">
+      <appender-ref ref="GUVNOR_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+   
+   <!--
+      - u2.client.scorers logger 
+      - 
+      - Logger to be used by the scorers
+   -->
+   <logger name="u2.client.scorers" additivity="true">
+      <appender-ref ref="CONSOLE_APPENDER" />
+      <appender-ref ref="SCORER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+  <!--
+      - DataAggregator logger 
+      - 
+      - Logger to be used by the DataAggregaor
+   -->
+   <logger name="dataaggregator" additivity="true">
+      <appender-ref ref="DATAAGGREGATOR_FILE_APPENDER" />
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+   <logger name="DataAggregator" additivity="true">
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+
+   <logger name="mwg.dictionary.utils" additivity="true">
+      <appender-ref ref="MWG_NULL_APPENDER" />
+   </logger>
+
+   <logger name="webcache.client" additivity="true">
+      <appender-ref ref="WEBCACHE_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <logger name="u2.client.util" additivity="true">
+      <appender-ref ref="CONSOLE_APPENDER" />
+      <appender-ref ref="COMMON_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.server.catserver logger
+    -->
+   <logger name="u2.server.catserver" additivity="true">
+      <appender-ref ref="CATSERVER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+  </logger>
+
+   <!--
+      - u2.client.agents logger 
+      - 
+      - Logger to be used by the scorers
+   -->
+   <logger name="u2.client.agents" additivity="true">
+      <appender-ref ref="AGENT_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.client.pm logger 
+      - 
+      - Logger to be used by the process manager
+   -->
+   <logger name="u2.client.pm" additivity="true">
+      <appender-ref ref="PM_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - crawler.core logger 
+      - 
+      - Logger to be used by the crawler
+   -->
+   <logger name="crawler.core" additivity="true">
+      <appender-ref ref="CRAWLER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+  <!--
+      - u2.client.harvester.hadoop
+      -
+      - Logger to be used by the harvester hadoop
+   -->
+   <logger name="u2.client.harvester.hadoop" additivity="true">
+      <appender-ref ref="HADOOP_HARVESTER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+   
+   <!-- 
+      - u2.client.harvesters logger 
+      - 
+      - Logger to be used by the harvesters
+    -->
+   <logger name="u2.client.harvesters" additivity="true">
+      <appender-ref ref="HARVESTER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+
+   <!-- 
+      - u2.client.harvester logger 
+      - 
+      - Logger to be used by a couple of exports that
+      - are asking for the wrong logger.
+    -->
+   <logger name="u2.client.harvester" additivity="true">
+      <appender-ref ref="HARVESTER_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+      <appender-ref ref="CONSOLE_APPENDER" />
+   </logger>
+
+   <!--
+      - u2.interfaces.TimedSocketFactory logger
+      -
+      - Logger to be used by the SA Facet updater
+    -->
+   <logger name="org.jnp" additivity="true">
+      <appender-ref ref="JBOSS_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - jboss logger
+      -
+      - Logger to be used by jboss
+    -->
+   <logger name="org.jboss" additivity="true">
+      <appender-ref ref="JBOSS_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>  
+   
+   <!-- GTI Cloud Client -->
+   <logger name="u2.GTICloudClient" additivity="true">
+      <appender-ref ref="GTI_FILE_APPENDER" />
+   </logger>
+
+   <!-- 
+      - logger used by Tiered Harvest and Tiered harvest queues. 
+      - 
+    -->
+   <logger name="u2.TieredHarvest" additivity="true">
+	<appender-ref ref="THF_FILE_APPENDER" />
+	<appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!--
+      - logger used by Domain IP
+      -
+   -->
+   <logger name="tsw.domain-ip-core" additivity="true">
+        <appender-ref ref="DOMIP_FILE_APPENDER" />
+        <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+
+   <!-- ================================================================== -->
+   <!-- NOTE: The following loggers are not currently in use. They will be -->
+   <!--       commented out until they are used to avoid the creation of   -->
+   <!--       unused log files.                                            -->
+   <!-- ================================================================== -->
+   
+   <!--
+      - u2.server.ums logger 
+      - 
+      - Logger to be used by ums components
+   
+   <logger name="u2.server.ums" additivity="true">
+      <appender-ref ref="UMS_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+   -->
+
+   <!-- 
+      - u2.server.sqm logger 
+      -
+      - Logger to be used by sqm componenets 
+   
+   <logger name="u2.server.sqm" additivity="true">
+      <appender-ref ref="SQM_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+   -->
+
+   <!--
+      - u2.client.waui logger 
+      - 
+      - Logger to be used by all waui components 
+
+   <logger name="u2.client.waui" additivity="true">
+      <appender-ref ref="WAUI_FILE_APPENDER" />
+      <appender-ref ref="SYSLOG_APPENDER" />
+   </logger>
+   -->
+
+</log4j:configuration>
+

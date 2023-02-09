@@ -1,0 +1,2 @@
+ujson
+beautifulsoup4

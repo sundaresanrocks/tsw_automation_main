@@ -1,0 +1,74 @@
+Setup Dev Environment
+=====================
+
+Must have Tools
+---------------
+#. Robomongo or MongoVUE
+#. Pycharm
+#. Chrome
+
+
+Python
+------
+
+Download and install **3.4.2+ 32-bit** binaries from https://www.python.org/downloads/
+
+#. Install python in ``c:\\py34``
+#. Ensure that ``C:\py34;C:\py34\Scripts;``  is in PATH
+#. Setup a virtual environment using the command
+
+    ::
+
+        c:
+        cd \
+        python -m venv ppenv
+
+#. Activate the virtual environment
+
+    ::
+
+        c:\ppenv\Scripts\activate.bat
+
+#. ``(ppenv)`` should be prefixed to the command line prompt.
+#. ``C:\ppenv\Scripts;`` should be prefixed to the PATH
+#. Install all required packages using requirements file in source code
+
+    ::
+
+        pip install -r requirements-nt.txt
+
+
+Local Mongo DB instance
+-----------------------
+Download and install mongodb in the path ``c:\mongodb`` from http://www.mongodb.org/downloads
+
+#. Create required folders and configuration files:
+
+    ::
+
+        mkdir c:\mongodb\logs
+        mkdir c:\mongodb\data
+
+#. Create a text file with following contents:
+
+    ::
+
+        #This is an example config file for MongoDB
+        #basic
+        dbpath = c:\mongodb\data\
+        port = 27017
+        logpath = c:\mongodb\logs\mongo.log
+
+#. Run the following to create a new service
+
+    ::
+
+        mongod -f "c:\mongodb\mongodb.conf" --install --serviceName mdb27017 --serviceDisplayName "MongoDB Server Instance 27017" --serviceDescription "MongoDB Server Instance running on 27017"
+
+#. In run, type ``services.msc`` and start the service ``MongoDB Server Instance 27017``
+#. Connect to mongodb instance from Robomongo or MongoVUE
+
+Linux
+-----
+
+

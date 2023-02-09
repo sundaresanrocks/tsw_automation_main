@@ -1,0 +1,101 @@
+{"test_01" : {
+    "url": "http://www.mcafeetesting.net23.net/samples/all_cross_threshold.html",
+    "scorer_event": [1,2,3,24,23],
+    "scorer_event_detail": {
+
+        "2" : {
+               "tr" : "0" ,
+               "hw" : "0" ,
+               "rl" : "0" ,
+               "rh" : "0" ,
+               "re" : "0" ,
+               "hl" : "0" ,
+               "bu" : "0" ,
+               "ed" : "0" ,
+               "rb" : "0" ,
+               "ia" : "0" ,
+               "tb" : "0" ,
+               "bl" : "0" ,
+               "mb" : "0" ,
+               "mk" : "0" ,
+               "dp" : "0" ,
+               "sx" : "28" ,
+               "os" : "0" ,
+               "ir" : "0" ,
+               "it" : "0" ,
+               "sp" : "0" ,
+               "wm" : "0" ,
+               "mv" : "0" ,
+               "il" : "0" ,
+               "fb" : "0" ,
+               "al" : "0" ,
+               "gm" : "0" ,
+               "cp" : "0" ,
+               "an" : "0" ,
+               "pm" : "0" ,
+               "po" : "0" ,
+               "gr" : "0" ,
+               "et" : "0" ,
+               "we" : "0" 
+               } ,
+
+        "23":{
+            "sp": {
+                "threshold":"40",
+                "rawscore":"112.5",
+                "score":"100.0"
+            },
+            "bu": {
+                "threshold":"30",
+                "rawscore":"618.75",
+                "score":"100.0"
+            },
+            "gm": {
+                "threshold":"40",
+                "rawscore":"250.0",
+                "score":"100.0"
+            },
+            "im": {
+                "threshold":"100",
+                "rawscore":"0.0",
+                "score":"0.0"
+            },
+            "bl": {
+                "threshold":"50",
+                "rawscore":"53.0",
+                "score":"53.0"
+            },
+            "sx": {
+                "threshold":"50",
+                "rawscore":"138.6",
+                "score":"100.0"
+            },
+            "mk": {
+                "threshold":"30",
+                "rawscore":"103.95",
+                "score":"100.0"
+            },
+            "il": {
+                "threshold":"50",
+                "rawscore":"158.4",
+                "score":"100.0"
+            }
+        },
+        
+        "24" : {
+                "result_value" : "en" ,
+                "result_type_name" : "cldlanguage"
+              }
+
+    },
+    "categories":{
+				"set_by" : "161",
+				"cat" : "gm"
+            },
+    "worktask":{
+        "message":"Completed OK!",
+        "returnCode":"0"
+    }
+  
+}
+}

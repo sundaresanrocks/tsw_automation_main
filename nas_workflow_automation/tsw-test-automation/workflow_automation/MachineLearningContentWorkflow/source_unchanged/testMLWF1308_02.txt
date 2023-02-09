@@ -1,0 +1,3 @@
+http://0x.mc-gs.de/pang/notepad.exe
+https://raw.githubusercontent.com/glebmillenium/contact_center/master/client1/contact_center_application/obj/x86/Release/АРМ оператора контакт-центра.exe
+https://raw.githubusercontent.com/HazyDrag/home-projects/master/MarketManager/MarketManagerLashchenkova/obj/Release/MarketManagerLashchenkova.exe

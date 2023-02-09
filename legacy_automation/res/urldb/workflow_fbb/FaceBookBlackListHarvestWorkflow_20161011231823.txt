@@ -1,0 +1,48 @@
+{
+   "data": [
+      {
+         "added_on": "2016-10-12T04:08:37+0000",
+         "id": "982725491853471",
+         "indicator": {
+            "indicator": "https://www.axway.com/sites/default/files/js/js_rLLmyvwRcxKjt5p1T1knWtwbukfrvn1nP0INUPvGvxw.js",
+            "type": "URI",
+            "id": "982725488520138"
+         },
+         "owner": {
+            "id": "820763734618599",
+            "email": "threatexchange\u0040support.facebook.com",
+            "name": "Facebook Administrator"
+         },
+         "type": "URI",
+         "raw_indicator": "https://www.axway.com/sites/default/files/js/js_rLLmyvwRcxKjt5p1T1knWtwbukfrvn1nP0INUPvGvxw.js",
+         "status": "UNKNOWN",
+         "privacy_type": "VISIBLE",
+         "share_level": "GREEN"
+      },
+      {
+         "added_on": "2016-10-12T04:08:37+0000",
+         "id": "1133550960065907",
+         "indicator": {
+            "indicator": "https://www.axway.com/sites/default/files/bnp-paribas_logo_250x100.png",
+            "type": "URI",
+            "id": "1133550956732574"
+         },
+         "owner": {
+            "id": "820763734618599",
+            "email": "threatexchange\u0040support.facebook.com",
+            "name": "Facebook Administrator"
+         },
+         "type": "URI",
+         "raw_indicator": "https://www.axway.com/sites/default/files/bnp-paribas_logo_250x100.png",
+         "status": "UNKNOWN",
+         "privacy_type": "VISIBLE",
+         "share_level": "GREEN"
+      }
+       ],
+   "paging": {
+      "cursors": {
+         "before": "MAZDZD",
+         "after": "MTkx"
+      }
+   }
+}

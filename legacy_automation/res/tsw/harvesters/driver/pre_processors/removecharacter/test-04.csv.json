@@ -1,0 +1,11 @@
+{
+  "http://google.com" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "url",
+    "value" : "http://google.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

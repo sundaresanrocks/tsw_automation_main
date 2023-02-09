@@ -1,0 +1,100 @@
+Coding Standards
+================
+
+Some of the python coding conventions used in this project are listed here. The complete set of coding style guidelines can be found at http://www.python.org/dev/peps/pep-0008
+
+Summary
+-------
+
+- Maximum line length:  120
+- Indentation: 4 spaces     (NO TABS)
+- Always use unix style ``\n`` ``LF`` line endings. Never mix line endings in any python file.(Also ensure before and after check in)
+- Naming convention:
+
+    - Class: ``CamelCase``
+    - Constants: ``ALL_CAPS``
+    - Methods and variables: ``lower_case_separated_by_underscore``
+- Use """ for doc strings and ''' for multi line strings
+- Prefer ``'single quoted'`` strings.
+- Separate top-level function and class definitions with two blank lines.
+- Method definitions inside a class are separated by a single blank line.
+- Use blank lines in functions, sparingly, to indicate logical sections.
+
+
+Naming Conventions
+------------------
+
+- **Modules**: Modules should have short, all-lowercase names.
+- **Packages**: Python packages should also have short, all-lowercase names, although the use of underscores is discouraged.
+- **Class**: They use the CapWords convention. Classes for internal use have a leading underscore in addition.
+- **Exception**: Because exceptions should be classes, the class naming convention applies here.  However, you should use the suffix "Error" on your exception names
+- **Functions**: Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+- **Constants**: Constants are usually defined on a module level and written in all capital letters with underscores separating words.  Examples include MAX_OVERFLOW and TOTAL
+
+Imports
+-------
+
+- Imports should usually be on separate lines
+- Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
+- Imports should be grouped in the following order:
+        #. standard library imports
+        #. related third party imports
+        #. local application/library specific imports
+
+Whitespace
+----------
+Avoid extraneous whitespace in the following situations:
+- Immediately inside parentheses, brackets or braces.
+
+::
+
+    Yes: spam(ham[1], {eggs: 2})
+    No:  spam( ham[ 1 ], { eggs: 2 } )
+
+•	Immediately before a comma, semicolon, or colon:
+
+::
+
+    Yes: if x == 4: print x, y; x, y = y, x
+    No:  if x == 4 : print x , y ; x , y = y , x
+
+•	Immediately before the open parenthesis that starts the argument list of a function call:
+
+::
+
+    Yes: spam(1)
+    No:  spam (1)
+
+•	Immediately before the open parenthesis that starts an indexing or slicing:
+
+::
+
+    Yes: dict['key'] = list[index]
+    No:  dict ['key'] = list [index]
+
+•	More than one space around an assignment (or other) operator to align it with another.
+
+::
+
+    Yes:
+    x = 1
+    y = 2
+    long_variable = 3
+
+    No:
+    x             = 1
+    y             = 2
+    long_variable = 3
+
+•	Always surround these binary operators with a single space on
+        either side: assignment (=), augmented assignment (+=, -= etc.),
+        comparisons (==, <, >, !=, <>, <=, >=, in, not in, is, is not),
+        Booleans (and, or, not).
+•	Use spaces around arithmetic operators:
+•	Don't use spaces around the '=' sign when used to indicate a
+        keyword argument or a default parameter value.
+•	Compound statements (multiple statements on the same line) are
+        generally discouraged.
+•	While sometimes it's okay to put an if/for/while with a small
+        body on the same line, never do this for multi-clause
+        statements.  Also avoid folding such long lines!

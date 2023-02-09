@@ -1,0 +1,50 @@
+# one test per line
+#test_module.test_class.test_method
+
+# Canonicalizer Tests
+#--------------------
+tests.canon.IP.test_loopback_[0:0:0:0:0:0:0:1]
+tests.canon.IP.test_loopback_[::1]
+tests.canon.IP.test_overflow_100.100.1000.10
+tests.canon.IP.test_overflow_1000.1.1.1
+tests.canon.IP.test_overflow_11.1000.10.0
+tests.canon.IP.test_private_[::]
+tests.canon.IP.test_public_192.0.0.0
+
+# Harvester Framework Tests HTTP Content Provider
+#------------------------------------------------
+tests.harvesters.contentprovider.http.HTTPContentProvider.test_05
+tests.harvesters.contentprovider.http.HTTPContentProvider.test_06
+tests.harvesters.contentprovider.http.HTTPContentProvider.test_07
+
+# Harvester Framework Tests File Content Provider
+#------------------------------------------------
+tests.harvesters.contentprovider.file.FileContentProvider.test_05
+
+# Harvester Framework Tests JSON Content Parser
+#----------------------------------------------
+tests.harvesters.contentparser.json.JSONContentParser.test_11
+
+# Publishing Agent Test Cases
+#----------------------------
+tests.prevalence.publishagent.PublishingAgent.test_publishing_067
+tests.prevalence.publishagent.PublishingAgent.test_publishing_072
+tests.prevalence.publishagent.PublishingAgent.test_080
+
+# Topsites Test Cases
+#--------------------
+tests.prevalence.topsites.AlexaTop1m.test_01
+tests.prevalence.topsites.AlexaTop1m.test_02
+tests.prevalence.topsites.AlexaTop1m.test_03
+tests.prevalence.topsites.AlexaTop1m.test_04
+tests.prevalence.topsites.AlexaTop1m.test_07
+tests.prevalence.topsites.AlexaTop1m.test_09
+tests.prevalence.topsites.AlexaTop1m.test_13
+tests.prevalence.topsites.TopSitesClient.test_10
+tests.prevalence.topsites.TopSitesClient.test_14
+
+# URLDB
+#------
+tests.urldb.test_canon.IP.test_private_IPv6_private_known_failure
+tests.urldb.test_canon.IP.test_private_IPv6_loopback_known_failure
+

@@ -1,0 +1,9 @@
+# url=example_CHAMP_format_file.txt;agent=;qname=;email=
+# Example sfimport input list, in CHAMP format.
+# Copyright (c) 2006, Secure Computing Corporation.  All rights reserved.
+# $Id: example_CHAMP_format_file.txt 25 2010-04-17 00:15:30Z jwalton $
+
+http://spamdavid.com	This is a comment
+http://spamkohn.com	This is a comment
+http://spamalan.com	This is a comment
+http://spamderhaag.com	This is a comment

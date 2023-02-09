@@ -1,0 +1,5 @@
+provider_no_change
+./MUTEHarvestWorkflow/properties/MUTEHarvestWorkflowProvider.properties
+./MUTEHarvestWorkflow/properties/MUTEHarvestWorkflowFactGenerator.properties
+./MUTEHarvestWorkflow/properties/MUTEHarvestWorkflowRuleDirectiveProcessor.properties
+./MUTEHarvestWorkflow/properties/MUTEHarvestWorkflowConsumer.properties

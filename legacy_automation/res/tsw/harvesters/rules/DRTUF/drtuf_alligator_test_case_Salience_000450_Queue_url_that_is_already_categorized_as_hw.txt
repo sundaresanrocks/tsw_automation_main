@@ -1,0 +1,1 @@
+source=drtuf_alligator_exe_flat_lex	url=http://WEB2000.RU	confidence=1	label=0

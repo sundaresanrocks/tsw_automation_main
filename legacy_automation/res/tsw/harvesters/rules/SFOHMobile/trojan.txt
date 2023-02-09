@@ -1,0 +1,1 @@
+SampleDBScorer	http://concrete.plicom.nl/rapport.pdf.exe	typeflag=2	name=PWS-Zbot.gen.ahr	md5=6556E282E88570CF7F9D72B237A0EB42	type=TROJAN	seedUrl=http://concrete.plicom.nl/rapport.pdf.exe

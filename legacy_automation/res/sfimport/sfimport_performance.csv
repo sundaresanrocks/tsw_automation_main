@@ -1,0 +1,4 @@
+id,url,sfimport_options,statistics_results
+1,newdomain123.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Successful=0;Total_Errors=0;Total_Canon_Errors=0
+2,newdomain256.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Errors
+3,newdomain6," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Canon_Errors

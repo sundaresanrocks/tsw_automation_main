@@ -1,0 +1,5 @@
+/opt/sftools/bin/AutoratingChainedScorer.sh
+/opt/sftools/bin/AutoratingQueuePopulator.sh
+/opt/sftools/bin/AutoratingUrlScheduler.sh
+/opt/sftools/bin/AutoratingURLSubmitter.sh
+/opt/sftools/bin/AutoratingScorerDriver.sh

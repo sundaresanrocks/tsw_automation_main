@@ -1,0 +1,10 @@
+[R]
+name=Extra Packages for Enterprise Linux 5 - $basearch
+#baseurl=http://hil-wsr-d-nfs01.corp.avertlabs.internal/epel/5/$basearch
+baseurl=http://tswfs01.scur.com/epel/5/$basearch
+enabled=1
+gpgcheck=1
+#gpgkey=http://hil-wsr-d-nfs01.corp.avertlabs.internal/epel/RPM-GPG-KEY-EPEL
+gpgkey=http://tswfs01.scur.com/epel/RPM-GPG-KEY-EPEL
+exclude=freetds* perl-Log* log4c*
+metadata_expire=0 

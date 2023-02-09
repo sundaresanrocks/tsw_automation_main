@@ -1,0 +1,1 @@
+http://www.regTESTQa4.com	resultfact===QueueResultFact []queue===CustomerLogs []priority=== []memo===(Salience=0) Default - shorten, put on CustomerLogs queueorigurl=about://blank  []url===blank []ruleMatched===(Salience=0) Default - shorten, put on CustomerLogs queue|t|

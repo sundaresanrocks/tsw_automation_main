@@ -1,0 +1,10 @@
+{"test_kk" :{
+    "url": "http://www.mcafeetesting.net23.net/samples/cld-kk.html",
+        "scorer_event_detail": {
+        "24" : {
+                "result_value" : "be" ,
+                "result_type_name" : "cldlanguage"
+              }
+    }  
+}
+}

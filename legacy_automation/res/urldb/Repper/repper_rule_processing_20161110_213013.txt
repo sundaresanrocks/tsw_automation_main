@@ -1,0 +1,2 @@
+*://10.10.10.10	resultfact===IgnoreResultFact []memo=== []url===*://10.10.10.10 []ruleMatched===(Salience=099999) Skip urls ending with dot []serialVersionUID===1|t|
+*://1.1.1.1	resultfact===IgnoreResultFact []memo=== []url===*://1.1.1.1 []ruleMatched===(Salience=099999) Skip urls ending with dot []serialVersionUID===1|t|

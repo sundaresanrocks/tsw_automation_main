@@ -1,0 +1,9 @@
+NAME
+wrua - Web Reputation User Agent - commandline tool
+DESCRIPTION
+USAGE
+COMMAND LINE OPTIONS
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

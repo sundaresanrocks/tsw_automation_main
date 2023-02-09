@@ -1,0 +1,53 @@
+{"test_01" : {
+    "url": "http://OLDWITHYOUNG.ORG",
+    "scorer_event": [1,2,3],
+    "scorer_event_detail": {
+
+        "2" : {
+               "tr" : "0" ,
+               "hw" : "0" ,
+               "rl" : "0" ,
+               "rh" : "0" ,
+               "re" : "0" ,
+               "hl" : "0" ,
+               "bu" : "0" ,
+               "ed" : "0" ,
+               "rb" : "0" ,
+               "ia" : "0" ,
+               "tb" : "0" ,
+               "bl" : "0" ,
+               "mb" : "0" ,
+               "mk" : "0" ,
+               "dp" : "0" ,
+               "sx" : "100" ,
+               "os" : "0" ,
+               "ir" : "0" ,
+               "it" : "0" ,
+               "sp" : "0" ,
+               "wm" : "0" ,
+               "mv" : "0" ,
+               "il" : "0" ,
+               "fb" : "0" ,
+               "al" : "0" ,
+               "gm" : "0" ,
+               "cp" : "0" ,
+               "an" : "0" ,
+               "pm" : "0" ,
+               "po" : "0" ,
+               "gr" : "0" ,
+               "et" : "0" ,
+               "we" : "0" 
+               } 
+
+            },
+    "categories":{
+					"set_by" : "161" ,
+					"cat"    : "sx"
+            },
+    "worktask":{
+        "message":"Completed OK!",
+        "returnCode":"0"
+    }
+  
+}
+}

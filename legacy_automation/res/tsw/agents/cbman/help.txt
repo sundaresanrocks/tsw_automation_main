@@ -1,0 +1,10 @@
+NAME
+cbman - Covered By Maintenance Utility - commandline tool
+DESCRIPTION
+Maintains the correct published parent URL in the URLTree table.
+USAGE
+COMMAND LINE OPTIONS
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

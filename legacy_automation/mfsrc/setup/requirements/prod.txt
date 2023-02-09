@@ -1,0 +1,9 @@
+# Pro-tip: Try not to put anything here. There should be no dependency in
+#	production that isn't in development.
+-r base.txt
+
+gunicorn>=19.1.1
+
+# Documentation
+Sphinx>=1.2.3
+sphinx-rtd-theme >=0.1.6

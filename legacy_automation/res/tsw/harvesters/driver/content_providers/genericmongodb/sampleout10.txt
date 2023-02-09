@@ -1,0 +1,42 @@
+[ {
+  "urlId" : 0.0,
+  "urlString" : "http://www.nirsoft.net/utils/product_cd_key_viewer.html",
+  "facts" : [ {
+    "factName" : "ScorerInfoResultFact",
+    "scorerName" : "SampleDBScorer",
+    "elapsedNano" : 1.45436345E8
+  }, {
+    "factName" : "SampleDBChildResultFact",
+    "classificationName" : "Unknown",
+    "classificationType" : "assumed_dirty",
+    "classificationTypeFlag" : 0.0,
+    "contentMD5" : "47068ED40DB239D4FA9167CCCE6E51D8",
+    "url" : "http://www.nirsoft.net/utils/produkey_setup.exe"
+  }, {
+    "factName" : "WebFetcherResultFact",
+    "recordId" : "e39d627b-0140-452e-b69d-1e1410d80c0e-1394205573053.warc.gz",
+    "httpCode" : 200.0,
+    "endURL" : "http://www.nirsoft.net/utils/product_cd_key_viewer.html",
+    "fetchedURL" : "http://www.nirsoft.net/utils/product_cd_key_viewer.html",
+    "message" : "Fetch url http://www.nirsoft.net/utils/product_cd_key_viewer.html"
+  }, {
+    "factName" : "ScorerInfoResultFact",
+    "scorerName" : "WebFetcherScorer",
+    "elapsedNano" : 1.751755258E9
+  }, {
+    "factName" : "SampleDBResultFact",
+    "classificationName" : null,
+    "classificationType" : null,
+    "classificationTypeFlag" : 0.0,
+    "contentMD5" : null,
+    "dirtyChildren" : 0.0,
+    "cleanChildren" : 0.0,
+    "unknownChildren" : 5.0,
+    "grayChildren" : 1.0,
+    "totalChildren" : 6.0,
+    "dirtyPercent" : 0.0
+  } ],
+  "activationSummary" : "Rules matched=[None]",
+  "directive" : null,
+  "completeDate" : "2014-03-07T09:19:33Z"
+} ]

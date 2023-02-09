@@ -1,0 +1,53 @@
+
+# ftp server
+pyftpdlib
+
+# managing files
+path.py
+
+# http, html, xml, excel
+requests
+beautifulsoup4
+html2text
+lxml==3.3.0
+xlrd
+xlsxwriter
+openpyxl
+
+# dbs
+pymysql
+pymssql
+pymongo
+mongoengine
+
+# ui parts
+django
+mako
+gunicorn
+restless
+
+# ssh
+paramiko
+
+# python 2 and 3 compatibility
+six
+
+# documentation
+sphinx
+
+
+# testlink
+TestLink-API-Python-client>=0.6
+
+# test framework
+pytest
+pytest-instafail
+
+# pytest-sandbox
+# pytest-filter
+# pytest-testlink
+
+https://github.com/manojklm//archive/master.zip
+https://github.com/manojklm//archive/master.zip
+https://github.com/manojklm//archive/master.zip
+

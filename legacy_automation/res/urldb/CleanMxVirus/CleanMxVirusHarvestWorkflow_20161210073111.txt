@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<output>
+        <response>
+                <error>0</error>
+                <remarks>force_fetch=1 delta=104796269 count=0</remarks>
+        </response>
+<entries>
+<entry>
+        <line>1</line>
+        <id>104796274</id>
+        <first>1481141155</first>
+        <last>0</last>
+        <md5>20db9dbf8ce79e80f8b0a0c2b9390a33</md5>
+        <virustotal>http://www.virustotal.com/latest-report.html?resource=20db9dbf8ce79e80f8b0a0c2b9390a33</virustotal>
+        <vt_score>1/55 (1.8%)</vt_score>
+        <scanner>undef</scanner>
+        <virusname><![CDATA[Ransom_LOCKYENC.DLDVGB]]></virusname>
+        <url><![CDATA[1.1.1.1]]></url>
+        <recent>up</recent>
+        <response>alive</response>
+        <ip>1.1.1.1</ip>
+        <as>AS26496</as>
+        <review>166.62.28.123</review>
+        <domain>velociter.in</domain>
+        <country>US</country>
+        <source>ARIN</source>
+        <email>abuse@godaddy.com</email>
+        <inetnum>166.62.0.0 - 166.62.127.255</inetnum>
+        <netname>GO-DADDY-COM-LLC</netname>
+        <descr><![CDATA[GoDaddy.com, LLC GODAD 14455 N Hayden Road Suite 226 Scottsdale AZ 85260]]></descr>
+        <ns1>ns22.domaincontrol.com</ns1>
+        <ns2>ns21.domaincontrol.com</ns2>
+        <ns3></ns3>
+        <ns4></ns4>
+        <ns5></ns5>
+</entry>
+<entry>
+        <line>1</line>
+        <id>104796274</id>
+        <first>1481141155</first>
+        <last>0</last>
+        <md5>20db9dbf8ce79e80f8b0a0c2b9390a33</md5>
+        <virustotal>http://www.virustotal.com/latest-report.html?resource=20db9dbf8ce79e80f8b0a0c2b9390a33</virustotal>
+        <vt_score>1/55 (1.8%)</vt_score>
+        <scanner>undef</scanner>
+        <virusname><![CDATA[Ransom_LOCKYENC.DLDVGB]]></virusname>
+        <url><![CDATA[10.10.10.10]]></url>
+        <recent>up</recent>
+        <response>alive</response>
+        <ip>10.10.10.10</ip>
+        <as>AS26496</as>
+        <review>166.62.28.123</review>
+        <domain>velociter.in</domain>
+        <country>US</country>
+        <source>ARIN</source>
+        <email>abuse@godaddy.com</email>
+        <inetnum>166.62.0.0 - 166.62.127.255</inetnum>
+        <netname>GO-DADDY-COM-LLC</netname>
+        <descr><![CDATA[GoDaddy.com, LLC GODAD 14455 N Hayden Road Suite 226 Scottsdale AZ 85260]]></descr>
+        <ns1>ns22.domaincontrol.com</ns1>
+        <ns2>ns21.domaincontrol.com</ns2>
+        <ns3></ns3>
+        <ns4></ns4>
+        <ns5></ns5>
+</entry>
+</entries>
+</output>

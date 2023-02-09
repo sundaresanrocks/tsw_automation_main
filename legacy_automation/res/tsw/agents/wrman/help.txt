@@ -1,0 +1,10 @@
+NAME
+wrman - Web Reputation Maintenance Utility - commandline tool
+DESCRIPTION
+Calculates the Web Reputation and correct covered by URLs.
+USAGE
+COMMAND LINE OPTIONS
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

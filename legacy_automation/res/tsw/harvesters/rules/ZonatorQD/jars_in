@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+#print STDERR "argc is " . scalar(@ARGV) . ", argv is " . join(' ',@ARGV) . "\n";
+
+die "Usage: jars_in somedir" unless (scalar(@ARGV) == 1);
+
+my @jars = glob $ARGV[0] . "/*.jar";
+print STDOUT join ':',@jars;
+exit;

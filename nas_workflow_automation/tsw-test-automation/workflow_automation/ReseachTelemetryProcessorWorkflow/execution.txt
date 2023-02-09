@@ -1,0 +1,4 @@
+files
+./ReseachTelemetryProcessorWorkflow/properties/ResearchTPProvider.properties
+./ReseachTelemetryProcessorWorkflow/properties/ResearchTPWebfetcher.properties
+./ReseachTelemetryProcessorWorkflow/properties/ResearchTPFactGenerator.properties

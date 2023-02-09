@@ -1,0 +1,10 @@
+{"test_hi" :{
+    "url": "http://www.mcafeetesting.net23.net/samples/cld-hi.html",
+        "scorer_event_detail": {
+        "24" : {
+                "result_value" : "hi" ,
+                "result_type_name" : "cldlanguage"
+              }
+    }  
+}
+}

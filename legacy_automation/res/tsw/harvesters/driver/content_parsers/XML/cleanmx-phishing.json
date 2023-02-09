@@ -1,0 +1,1097 @@
+{
+  "http://CB.AIC.NET" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "74.52.0.0 - 74.53.255.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319643826",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "NETBLK-THEPLANET-BLK-14",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "NULL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299603",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "1",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983285",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "ThePlanet.com Internet Services, Inc. TPCM 1333 North Stemmons Freeway Suite 110 Dallas TX 75207",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@theplanet.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "74.53.228.211",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns1.blymp.com.br",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns2.blymp.com.br",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "novaspromocao.com.br",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://205.203.139.103" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "205.204.64.0 - 205.204.95.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319643822",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "NETEL-ARIN-BLK04",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "205.203.139.103",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "3",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983282",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Netelligent Hosting Services Inc. NHS-31 1396 Franklin Drive Laval QC H7W-1K6",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@netelligent.ca",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "CA",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "205.204.66.228",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns8.crocweb.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns7.crocweb.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "grimwire.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://113.146.139.143/w/view.php?uid=41796" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "69.164.192.0 - 69.164.223.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319642640",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "LINODE-US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "113.146.139.143",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299598",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "4",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983280",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Linode LINOD 329 E. Jimmie Leeds Road Suite A Galloway NJ 08205",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "support@linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "69.164.217.27",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns5",
+    "value" : "ns4.linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns4",
+    "value" : "ns2.linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns3",
+    "value" : "ns5.linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns3.linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns1.linode.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "appextras.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://66.98.176.125" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "209.124.64.0 - 209.124.95.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319642640",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "DRAGON-BLK-1",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "66.98.176.125",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299594",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "5",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983278",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Dragon Networks, Inc. DRAGON-8 4987 Lavista Road, Suite 4 Tucker GA 30084",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@dragon.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "209.124.73.222",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns4",
+    "value" : "ns4.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns3",
+    "value" : "ns3.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns2.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns1.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "executivemailingservices.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://124.109.140.3/ir" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "209.124.64.0 - 209.124.95.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319642640",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "DRAGON-BLK-1",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "124.109.140.3",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299593",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "6",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983277",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Dragon Networks, Inc. DRAGON-8 4987 Lavista Road, Suite 4 Tucker GA 30084",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@dragon.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "209.124.73.222",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns4",
+    "value" : "ns4.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns3",
+    "value" : "ns3.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns2.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns1.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "executivemailingservices.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://FINANCE.VERIZON.NET/vzn.isp/finance/quote" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "209.124.64.0 - 209.124.95.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319642640",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "DRAGON-BLK-1",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "209.124.73.228",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299592",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "7",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983276",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Dragon Networks, Inc. DRAGON-8 4987 Lavista Road, Suite 4 Tucker GA 30084",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@dragon.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "209.124.73.222",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns4",
+    "value" : "ns4.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns3",
+    "value" : "ns3.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns2.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns1.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "executivemailingservices.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://FORIUM.DE" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "response",
+    "value" : "alive",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "inetnum",
+    "value" : "209.124.64.0 - 209.124.95.255",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "first",
+    "value" : "1319642640",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "netname",
+    "value" : "DRAGON-BLK-1",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip",
+    "value" : "NULL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "phishtank",
+    "value" : "1299591",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "last",
+    "value" : "0",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "line",
+    "value" : "8",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "id",
+    "value" : "983275",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "descr",
+    "value" : "Dragon Networks, Inc. DRAGON-8 4987 Lavista Road, Suite 4 Tucker GA 30084",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "ARIN",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "email",
+    "value" : "abuse@dragon.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "country",
+    "value" : "US",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "review",
+    "value" : "209.124.73.222",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns4",
+    "value" : "ns4.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "recent",
+    "value" : "up",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns3",
+    "value" : "ns3.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns2",
+    "value" : "ns2.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ns1",
+    "value" : "ns1.nameresolve.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "domain",
+    "value" : "executivemailingservices.com",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

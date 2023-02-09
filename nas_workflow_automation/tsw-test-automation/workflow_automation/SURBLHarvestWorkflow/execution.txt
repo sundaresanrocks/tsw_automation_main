@@ -1,0 +1,3 @@
+rsync
+./SURBLHarvestWorkflow/properties/SURBLHarvestWorkflowProvider.properties
+./SURBLHarvestWorkflow/properties/SURBLHarvestWorkflowConsumer.properties

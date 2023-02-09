@@ -1,0 +1,5 @@
+provider_no_change
+./VirusTotalHarvestWorkflow/properties/VirusTotalHarvestWorkflowProvider.properties
+./VirusTotalHarvestWorkflow/properties/VirusTotalHarvestWorkflowFactGenerator.properties
+./VirusTotalHarvestWorkflow/properties/VirusTotalHarvestWorkflowRuleDirectiveProcessor.properties
+./VirusTotalHarvestWorkflow/properties/VirusTotalHarvestWorkflowConsumer.properties

@@ -1,0 +1,28 @@
+Celery Tips
+===========
+
+Start worker
+------------
+-l info         Set log level to INFO
+-Q que1         Subscribe to mentioned queue
+-A celtasks     Module name
+-n worker1.%h   Worker name
+
+.. code-block:: sh
+
+    celery -A celtasks worker --concurrency=1 -l info -Q queue_name
+
+Routing
+-------
+
+.. code-block:: python
+
+    CELERY_ROUTES = {'celtasks.feed': {'queue': 'feeds'}}
+
+Load configuration
+------------------
+
+.. code-block:: python
+
+    app = Celery()
+    app.config_from_object('celeryconfig')

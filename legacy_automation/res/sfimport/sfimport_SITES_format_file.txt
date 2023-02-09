@@ -1,0 +1,11 @@
+# Example sfimport input list, in SITES format.
+# Copyright (c) 2003-2006, Secure Computing Corporation.  All rights reserved.
+# $Id: example_SITES_format_file.txt 25 2010-04-17 00:15:30Z jwalton $
+
+
+# moved next down one as if first would reject the whole file as wrong format
+http://angelfire.com ps
+http://about.com ps
+http://altavista.com ps
+
+

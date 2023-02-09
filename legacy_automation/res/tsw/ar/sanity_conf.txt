@@ -1,0 +1,4 @@
+/opt/sftools/conf/urlscheduler.properties
+/opt/sftools/conf/worktaskpopulator.properties
+/opt/sftools/conf/fetcher.properties
+/opt/sftools/conf/scorer.properties

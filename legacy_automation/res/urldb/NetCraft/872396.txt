@@ -1,0 +1,25 @@
+unblock	sence.co.jp	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+Sucursal[\/\\]+172\.98\.67\.654180[\/\\]+personas[\/\\]+mua[\/\\]+USER\.html$
+unblock	szgoland.net	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+bin\.php$
+unblock	ramahitek.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+popp[\/\\]+edited(?:[\/\\]+|$)
+unblock	ramahitek.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+popp[\/\\]+edited$
+unblock	areariservata.technolab.it	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+dws[\/\\]+js[\/\\]+tax$
+unblock	brainbooster.top	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+ncms6\-1220\-k02t$
+unblock	pippo.pluto.twomotherforkers.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+pippo\.pluto$
+unblock	clickhere.memoryboostercredit.top	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+f(?:[\/\\]+|$)
+unblock	webcomcreation.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+admin[\/\\]+verify[\/\\]+update_you_acount
+unblock	jacopo.ortis.follyporchfest.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+jacopo\.ortis$
+unblock	z-karutechnologies.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+js[\/\\]+googledrive[\/\\]+review$
+unblock	www.a-distance-education.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+wp\-content[\/\\]+laba$
+unblock	exportice.fi	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+file[\/\\]+gift[\/\\]+DOMAIN\?email\=hnm8988mm\@yahoo\.con\.cn$
+unblock	greenbackpartners.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+user\.phtml(?:[\/\\]+|$)
+unblock	greenbackpartners.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+user\.phtml$
+unblock	studiowphoto.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+forward\.phtml$
+unblock	thairaith.us	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+trung1[\/\\]+codeenglishad$
+block	sab.edu.bd	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+GDriveE[\/\\]+GDrive[\/\\]+61101e2d3058295b6127b1b9eea2b1f0$	http://sab.edu.bd/GDriveE/GDrive/61101e2d3058295b6127b1b9eea2b1f0	2016-12-29 09:40:58	google	7.05867	184.154.45.10	ns1.polluxtech.com	hostmaster@centriohost.com	HOSTSEO-LLC,184.154.45.8,184.154.45.15	BD	CENTRIOHOST-LLC.
+block	sab.edu.bd	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+GDriveE[\/\\]+GDrive[\/\\]+modules\.php$	http://sab.edu.bd/GDriveE/GDrive/modules.php	2016-12-29 09:40:59	google	7.05867	184.154.45.10	ns1.polluxtech.com	hostmaster@centriohost.com	HOSTSEO-LLC,184.154.45.8,184.154.45.15	BD	CENTRIOHOST-LLC.
+block	ow.ly	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+SUPa307nrg9\?wa\=tryyfs5546666\&domain\=null\&email\=allasean\@miti\.gov\.my\&browser\=unkonown\&time\=valid\.$	http://ow.ly/SUPa307nrg9?wa=tryyfs5546666&domain=null&email=allasean@miti.gov.my&browser=unkonown&time=valid.	2016-12-29 09:42:50	genericwebmailphishing	2.00997	54.67.57.56	ns-795.awsdns-35.net	awsdns-hostmaster@amazon.com	AMAZON-2011L,54.64.0.0,54.71.255.255	US	Amazon Technologies Inc.
+block	santandernet-br.mobi	.	http://www.santandernet-br.mobi/	2016-12-29 09:44:10	bancosantander	9.5793	85.204.96.185	ns1.eurodns.com	hostmaster@eurodns.com	DE-DA-RZ-20050113,85.204.96.0,85.204.97.255	DE	unknown
+block	paymaipali.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+paypal\-com\-myaccount\-update\-limited\-informations\-securityc	http://paymaipali.com/paypal-com-myaccount-update-limited-informations-securityc/webapps/a303d/websrc	2016-12-29 09:44:31	paypal	9.60128	101.0.85.202	dns1.pucuk2le.com	kisrulkencleng@gmail.com	DIGITALPACIFIC,101.0.64.0,101.0.127.0	AU	Digital Pacific Pty Ltd Web Hosting and ISP Related Services Sydney, Australia.
+block	modestflow.org	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+virtual[\/\\]+152\.200\.171\.775272[\/\\]+personas[\/\\]+mua[\/\\]+USER\.html$	http://modestflow.org/virtual/152.200.171.775272/personas/mua/USER.html	2016-12-29 09:45:06	bancolombia	6.9695	184.154.161.215	ns1.tmd.cloud	support@tmdhosting.com	SINGLEHOP,184.154.0.0,184.154.255.255	US	SingleHop, Inc.
+block	machinesaver.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+favicon[\/\\]+img[\/\\]+jdid[\/\\]+db244[\/\\]+dir[\/\\]+car\.php	http://machinesaver.com/favicon/img/jdid/db244/dir/car.php?cmd=_account-details&session=3c8208b9a1dafa9874a41c936e8595f2&dispatch=678e2820f34802c82b9cab7193fa6d6ced244758	2016-12-29 09:45:07	applecomputer	6.86822	64.118.86.21	ns1.123servers.com	support@123ehost.com	4RWEB-NETBLK-1,64.118.80.0,64.118.95.255	US	4RWEB, Inc
+block	peypuaal.com	(?i)^https?\:\/\/[\w\-\.]+(?:\:(?:80|443))?[\/\\]+webapps[\/\\]+1c4e7[\/\\]+websrc$	http://peypuaal.com/webapps/1c4e7/websrc	2016-12-29 09:45:09	paypal	9.57496	23.91.66.100	dns1.p05.nsone.net	hostmaster@nsone.net	ASO-239164-20,23.91.64.0,23.91.79.255	US	A Small Orange LLC

@@ -1,0 +1,3 @@
+url,_id,cl_hash,db_hash,in_alexa,in_dms,in_quantcast,in_sanity,alexa,quantcast
+*://GOOGLE.COM,c624031238f7e4915b5fbf2ec9d6b9b74e3641b936a161a4b62cdf40b242be04,0X012e8c6afcd2fd3fadf669a6,962cb790495d088406731a41,TRUE,FALSE,FALSE,FALSE,top_1m:1,
+*://BAIDU.COM,153b7ab16ff046bae064dba0b5bc57f63bf559e7826eefca8c5cc13ebeab4f9d,0X20b5af1e2339719c66cffdc7,1b862d35e05c04b4bc64c715,TRUE,FALSE,FALSE,FALSE,top_1m:5,

@@ -1,0 +1,5 @@
+files
+./MachineLearningContentWorkflow/properties/MLCProvider.properties
+./MachineLearningContentWorkflow/properties/MLCWebPageFetcher.properties
+./MachineLearningContentWorkflow/properties/MLCFactGenerators.properties
+./MachineLearningContentWorkflow/properties/MLCConsumer.properties

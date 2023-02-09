@@ -1,0 +1,5 @@
+test_func,url,list_file,Category,Reputation group,error_result,Category Provided By
+sfimport_01,http://URL-TEST1.COM,xl,"gm,sx",Minimal Risk,no,URL-TEST1.COM
+sfimport_01,http://TEST2ANURAGS.COM,"xl,ts",sx,Maximum Rish,yes,URL-TEST1.COM
+sfimport_01,http://SFIMPORT2DELETETEST.COM,"xl,ts",sx,Maximum Rish,yes,URL-TEST1.COM
+test_02,URL-TEST2.COM,ts,"gm,sx",Minimal Risk,no,URL-TEST2COM

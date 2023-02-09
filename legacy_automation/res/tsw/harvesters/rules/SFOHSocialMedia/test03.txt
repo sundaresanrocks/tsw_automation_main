@@ -1,0 +1,1 @@
+SocialMediaScorer	*://linkedin.com/google	is_social_media=true	seedUrl=linkedin.com

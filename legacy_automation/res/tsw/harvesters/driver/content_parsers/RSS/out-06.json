@@ -1,0 +1,11 @@
+{
+  "youandy.com/www/TRF27082012.exe" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip_address",
+    "value" : "213.140.96.239",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

@@ -1,0 +1,174 @@
+100	Injustice
+101	Illegal Internet Activity
+102	Copyright Infringement
+103	Child Sexual Abuse
+104	Illegal Drug Use
+105	Drug Abuse
+106	Assisted Suicide
+200	Porn
+201	Pornography
+202	Fetish
+300	Security
+301	Cracking
+302	Malware
+303	DBD Attacked
+304	Phishing And Click Fraud
+305	Anonymous Proxy
+306	Web Filter Avoidance
+400	Dating
+401	Dating
+500	Finance
+501	Market Information
+502	Online Trading
+503	Insurance Contract
+504	Financial Products
+505	Investment
+506	Insurance
+507	Banking
+508	Credit Card And Loans
+509	Mileage Points Service
+510	Club And Resort Membership
+511	Real Estate
+600	Gambling
+601	Gambling
+602	Lottery
+700	Shopping
+701	Stores And Shopping Centers
+702	Shopping Centers And Office Complexes
+703	Online Shopping
+704	Online Auctions
+800	Internet Communication
+801	SNS And Microblogging
+802	Message Board And Web Chat
+803	Knowledge Community
+804	Blog
+805	Web Mail
+806	Mailing List
+900	Information Technology Service
+901	Email Newsletter
+902	Web Pages Archived And Web Cache
+903	Online Dictionary And Text Translation
+904	Web Page Translation
+905	Free Reference Sites
+906	Shared Bookmarks
+907	URL Translation Sites
+908	Streaming Media
+909	Live Broadcasting Service
+910	Storage And Backup Services
+911	Comment And Reputation
+912	Location-Based Services
+913	P2P
+914	Parked Domains
+915	Web Applications
+916	Software Download
+917	Updates And Drivers
+918	Web And Digital Graphic Design
+919	Information Technology
+920	Dynamic DNS
+1000	ISP And Portals
+1001	Internet Service Provider
+1002	Portals
+1003	Search Engine
+1004	Web Hosting
+1100	Business And Economy
+1101	Job Search
+1102	Business Seminars And Networking Events
+1103	Business And Commerce Information And Regulations
+1104	Business And Commerce Organizations
+1105	Side/Secondary Business
+1200	Excessive Expression
+1201	Violence And Cults
+1202	Obscene Material
+1300	Mature Contents
+1301	Weapons
+1302	Unethical
+1303	Hate
+1304	Alcohol And Tobacco
+1305	Mature Entertainment
+1306	Other Mature Entertainment
+1400	Hobby And Entertainment
+1401	Games
+1402	TV And Radio
+1403	Movie And Theater
+1404	Music
+1405	Books And Magazines
+1406	Cartoons
+1407	Celebrity
+1408	Swimsuit And Lingerie
+1409	Beauty And Fashion
+1410	Costume Play
+1411	Fortune-Telling
+1412	Sports And Recreation
+1413	Pets, Animals, And Livestock
+1414	Toys And Models
+1415	Amusement
+1416	D.I.Y And Gardening
+1417	Prize Promotions
+1418	Hobbies
+1419	Other Hobbies
+1500	Life
+1501	Transportation
+1502	Car And Motorcycle
+1503	Other Vehicles
+1504	Online Map Service
+1505	Travel And Accommodations
+1506	Utilities
+1507	Postal And Parcel
+1508	Regional Information
+1509	Houseware
+1510	Home Services
+1511	Events
+1512	Communal Facilities
+1513	Digital Presentation
+1514	Food
+1515	Matrimonial Agency
+1516	Ceremonies/Funerals
+1517	Conception/Birth
+1518	Religion
+1600	Health
+1601	Medical
+1602	Care And Welfare
+1603	Healthcare And Relaxation
+1604	Sex Education
+1605	Cosmetic Surgery
+1606	Mental Health
+1700	Education
+1701	Educational Institution
+1702	Educational Materials
+1703	Development And Research
+1704	Cultural Education
+1705	Culture And Art
+1706	Cultural Institution
+1800	Politics
+1801	Government
+1802	Political Organizations And Politicians
+1803	Embassies And International Organizations
+1804	Military
+1805	Political Information
+1900	Advertisement
+1901	Advertising Agency And Marketing
+1902	Online Advertising
+2000	Email Spam
+2001	Email Spam
+2100	News
+2101	News And Media
+2102	Weather And Disaster Information
+2200	Various Service
+2201	Lawyer And Administrative Assistants
+2202	Accountants
+2203	Private Investigation
+2204	Design
+2205	Consulting
+2206	Language Translation Services
+2207	Other Service
+2300	Agriculture And Various Industry
+2301	Agriculture
+2302	Construction
+2303	Manufacturing Industry
+2304	Miscellaneous
+2400	System Contents
+2401	Image Server
+2402	CDN Server
+2403	Other System Contents
+20076	Unsupported URL
+20083	Private IP Addresses

@@ -1,0 +1,203 @@
+{
+  "http://notbadanymore.com/zxchdkfshdfi" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "NONE",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://verybadddddsite.com" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://www.com/foo" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "*://IMAGE.OHOZAA.COM/i/ace/u2wpyl.gif" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://google.com" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://icicibank.com/somepath" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "https://badsslsite.com" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "BAD",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ],
+  "http://thisshouldnothappen.com" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "SOMETHING",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "type",
+    "value" : "URL",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date_added",
+    "value" : "1404822602",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

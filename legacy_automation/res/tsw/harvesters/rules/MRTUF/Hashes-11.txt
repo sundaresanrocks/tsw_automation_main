@@ -1,0 +1,2 @@
+ChangeType,MD5,Location,DateAdded,ID,ClassificationName,ClassificationType
+"A","97246D25DB3B7E9AF73CA5326ECA711E","http://down.cobato.com/main/t5/cbtal.exe","10/24/2011 5:54:39 AM","17140583","Adware-Kraddare","PUP"

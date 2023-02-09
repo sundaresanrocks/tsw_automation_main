@@ -1,0 +1,6 @@
+provider_no_change
+./SecurityAutorating/properties/SAActiveMQProvider.properties
+./SecurityAutorating/properties/SAActiveMQWebFetcherWorker.properties
+./SecurityAutorating/properties/SAActiveMQFactGeneratorWorker.properties
+./SecurityAutorating/properties/SAActiveMQRuleDirectiveProcessorWorker.properties
+./SecurityAutorating/properties/SAActiveMQConsumer.properties

@@ -1,0 +1,21 @@
+<harvesterdetails>
+<harvester name='ABC'>
+<prop_path>/home/toolguy/</prop_path>
+<appserver>1.2.3.4</appserver>
+<guvnorserver>4.3.2.1</guvnorserver>
+<mode>delta</mode>
+<sourcedir>/hadoop/</sourcedir>
+<sessionOwner>/hadoop/</sessionOwner>
+</harvester>
+
+
+<harvester name='XYZ'>
+<prop_path>/home/</prop_path>
+<appserver>1.2.3.4</appserver>
+<guvnorserver>4.3.2.1</guvnorserver>
+<mode>delta</mode>
+<sourcedir>/hadoop/</sourcedir>
+<sessionOwner>/hadoop/</sessionOwner>urcedir>
+</harvester>
+
+</harvesterdetails>

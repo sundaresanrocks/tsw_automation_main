@@ -1,0 +1,48 @@
+{
+   "data": [
+         {
+         "added_on": "2016-10-12T02:34:58+0000",
+         "id": "1301133976572170",
+         "indicator": {
+            "indicator": "http://www.happyhey.com/share/nicki-minaj-tab/share.php?noscript=Yes&r",
+            "type": "URI",
+            "id": "1301133973238837"
+         },
+         "owner": {
+            "id": "820763734618599",
+            "email": "threatexchange\u0040support.facebook.com",
+            "name": "Facebook Administrator"
+         },
+         "type": "URI",
+         "raw_indicator": "http://www.happyhey.com/share/nicki-minaj-tab/share.php?noscript=Yes&r",
+         "status": "UNKNOWN",
+         "privacy_type": "VISIBLE",
+         "share_level": "GREEN"
+      },
+      {
+         "added_on": "2016-10-12T02:34:58+0000",
+         "id": "1256457591060771",
+         "indicator": {
+            "indicator": "http://www.happyhey.com/share/nicki-minaj-tab/getUrl.php?id=\u002527+id",
+            "type": "URI",
+            "id": "1256457587727438"
+         },
+         "owner": {
+            "id": "820763734618599",
+            "email": "threatexchange\u0040support.facebook.com",
+            "name": "Facebook Administrator"
+         },
+         "type": "URI",
+         "raw_indicator": "http://www.happyhey.com/share/nicki-minaj-tab/getUrl.php?id=\u002527+id",
+         "status": "UNKNOWN",
+         "privacy_type": "VISIBLE",
+         "share_level": "GREEN"
+      }
+       ],
+   "paging": {
+      "cursors": {
+         "before": "MAZDZD",
+         "after": "MTkx"
+      }
+   }
+}

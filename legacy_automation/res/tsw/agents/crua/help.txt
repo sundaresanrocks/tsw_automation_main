@@ -1,0 +1,10 @@
+NAME
+crua - Child Reputation User Agent - commandline tool
+DESCRIPTION
+Maintains the correct child reputation for URLs.
+USAGE
+COMMAND LINE OPTIONS
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

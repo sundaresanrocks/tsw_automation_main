@@ -1,0 +1,9 @@
+test_func,url,list_file,Category,Reputation group,error_result,Category Provided By
+sfimport_01,http://ANURAGSTEST1.COM,xl,"gm,sx",Minimal Risk,no,ANURAGSTEST1.COM
+sfimport_01,http://TEST2ANURAGS.COM,"xl,ts",sx,Maximum Rish,yes,ANURAGSTEST1.COM
+sfimport_01,http://SFIMPORT2DELETETEST.COM,"xl,ts",sx,Maximum Rish,yes,ANURAGSTEST1.COM
+ticketing_01,http://anonymoustests05.com,"xl,ts","bu",Minimal Risk,no,anonymoustests05.com
+harvester_01,http://TWITTER.COM/cisco,"xl,ts","bu,hw,bl,sn",Minimal Risk,no,twitter.com
+harvester_01,http://FACEBOOK.COM/cisco,"xl,ts","bu,hw,sn",Minimal Risk,no,facebook.com
+harvester_01,http://LINKEDIN.COM/cisco,"xl,ts","bu,hw,nt",Minimal Risk,no,linkedin.com
+harvester_01,http://YOUTUBE.COM/cisco,"xl,ts","bu,hw,md,st",Minimal Risk,no,youtube.com

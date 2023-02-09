@@ -1,0 +1,7 @@
+[addons]
+name=CentOS-$releasever - Addons
+baseurl=http://tswfs01.scur.com/centos/$releasever/addons/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=http://tswfs01.scur.com/centos/RPM-GPG-KEY-CentOS-5
+metadata_expire=0

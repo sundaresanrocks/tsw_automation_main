@@ -1,0 +1,6 @@
+id,url,sfimport_options,sfimport_results,sfv4checkurl_expected_results
+1,newdomain123.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0,Category = bu:Reputation=0
+2,newdomain256.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Errors=1,Category = bu:Reputation=0:Reputation group=Minimal Risk
+3,newdomain6," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Canon_Errors=1:Total_Successful=0,error_result=yes
+4,*://ATHELATICHWORLD.COM," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=1,Category = Not Categorized:Reputation=53: Reputation group=Unverified
+5,trustedsource.org |mcafee.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=0:skipped_www_ver=0:skipped_cat_dn=1,"Category = bu,hw:Reputation=-127: Reputation group=Minimal Risk"

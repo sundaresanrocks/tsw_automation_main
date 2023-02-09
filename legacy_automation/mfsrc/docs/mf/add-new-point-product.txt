@@ -1,0 +1,20 @@
+Steps to add a new point product
+================================
+
+Let the name of point product be ``ppnew1``
+
+Celery Configuration
+--------------------
+
+#. Create a new queue in ``celeryconfig.py``
+
+#. Add a new route, routing_key
+
+#. Copy the template for new point product
+
+#. Change the task name
+
+#. Write a new runner if required
+
+Test
+----

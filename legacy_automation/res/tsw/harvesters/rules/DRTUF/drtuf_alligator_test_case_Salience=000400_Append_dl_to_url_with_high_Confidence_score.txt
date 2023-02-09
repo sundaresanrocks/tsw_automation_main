@@ -1,0 +1,1 @@
+source=drtuf_alligator_exe_flat_lex	url=HTTP://vs1.testing.com/setup.EXE	confidence=0.95	label=0

@@ -1,0 +1,5 @@
+workflow/webcache_maxmind/*.mmdb
+workflow/exe.model.rf_tr_1week_latest.rdata
+workflow/tmp
+workflow/urldb
+crawler/downloads

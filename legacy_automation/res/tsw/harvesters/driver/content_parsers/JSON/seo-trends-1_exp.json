@@ -1,0 +1,43 @@
+{
+  "http://www.timeanddate.com/holidays/us/memorial-day" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "status",
+    "value" : "false",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "date",
+    "value" : "Fri Jun 29 14:24:38 CDT 2012",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "url",
+    "value" : "http://www.timeanddate.com/holidays/us/memorial-day",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "key",
+    "value" : "memorial day",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "source",
+    "value" : "google",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

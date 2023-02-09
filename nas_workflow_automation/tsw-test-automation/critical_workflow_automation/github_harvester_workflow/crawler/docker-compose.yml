@@ -1,0 +1,13 @@
+version: '2'
+services:
+  github_crawler:
+    build: .
+    image: github-crawler
+    container_name: github-crawler
+    volumes:
+     - github_commits:/data/webcache/workflows/harvesters/GithubCommitsHarvestWorkflow/commits
+     - ./downloads:/data/webcache/workflows/harvesters/GithubCommitsHarvestWorkflow/src
+    command: /home/toolguy/github_crawler/run_crawler.sh
+volumes:
+  github_commits:
+  downloads:

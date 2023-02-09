@@ -1,0 +1,4 @@
+id,url,sfimport_options,sfimport_results,sfv4checkurl_results,current_queue
+1,newdomain123.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Successful,ms,null
+2,newdomain256.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Errors,bu,null
+3,newdomain6," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Canon_Errors,bu,null

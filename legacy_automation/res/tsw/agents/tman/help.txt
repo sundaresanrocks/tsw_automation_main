@@ -1,0 +1,7 @@
+tman - Transaction Manager - commandline tool
+Process pending URL and Domain Transactions.
+COMMAND LINE OPTIONS
+EXIT STATUS
+0 on success
+1 on had to stop early
+2 on failure

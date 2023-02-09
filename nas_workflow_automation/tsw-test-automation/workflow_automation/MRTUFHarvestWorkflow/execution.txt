@@ -1,0 +1,3 @@
+ftp
+./MRTUFHarvestWorkflow/properties/MRTUFHarvestWorkflowProvider.properties
+./MRTUFHarvestWorkflow/properties/MRTUFHarvestWorkflowConsumer.properties

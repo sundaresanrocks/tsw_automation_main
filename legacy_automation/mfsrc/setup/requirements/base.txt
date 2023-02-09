@@ -1,0 +1,5 @@
+Django>=1.7
+pytest>=2.6.4
+
+restless
+mongoengine

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<output>
+	<response>
+		<error>0</error>
+		<hits>1</hits>
+	</response>
+<entries>
+
+<entry>
+	<line>1</line>
+	<id>985267</id>
+	<first>1320313815</first>
+	<last>0</last>
+	<phishtank></phishtank>
+	<url><![CDATA[https://www.adiscovercard.com/customer-service/security/soan.html]]></url>
+	<recent>up</recent>
+	<response>alive</response>
+	<ip>199.38.149.1</ip>
+	<review>199.38.149.1</review>
+	<domain>discovercard.com</domain>
+	<country>US</country>
+	<source>ARIN</source>
+	<email>chrislugo@discover.com</email>
+	<inetnum>199.38.149.0 - 199.38.149.255</inetnum>
+	<netname>DCSIRW</netname>
+	<descr><![CDATA[Discover Financial Services Inc. DFS-35 2500 Lake Cook Rd Riverwoods IL 60015]]></descr>
+	<ns1>ns2.discovercard.com.</ns1>
+	<ns2>ns4.discovercard.com.</ns2>
+	<ns3>ns3.discovercard.com.</ns3>
+	<ns4>ns1.discovercard.com.</ns4>
+	<ns5></ns5>
+</entry>
+
+</entries>
+</output>
+

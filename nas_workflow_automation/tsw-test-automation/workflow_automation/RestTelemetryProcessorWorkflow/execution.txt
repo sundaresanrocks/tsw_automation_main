@@ -1,0 +1,4 @@
+files
+./RestTelemetryProcessorWorkflow/properties/RestTPProvider.properties
+./RestTelemetryProcessorWorkflow/properties/RestTPWebfetcher.properties
+./RestTelemetryProcessorWorkflow/properties/RestTPFactGenerator.properties

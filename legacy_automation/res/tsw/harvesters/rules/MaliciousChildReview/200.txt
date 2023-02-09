@@ -1,0 +1,2 @@
+SeenObjectScorer	http://sn000331.ferozo.com/1x0veo7o.exe	statusCode=200	sha256=d8da26a918436f78757954ab5696c58d293178ee20b06201f61a2f3a9a99d833	md5=DE8D3A1539723172E051AFA43A10058E	sha1=8eaed731f59e059b092792041cc1f33d9d6dfa62	date=1381848771336	ip=null	size=562	seedUrl=http://sn000331.ferozo.com/1X0veo7o.exe
+SampleDBScorer	http://sn000331.ferozo.com/1x0veo7o.exe	typeflag=0	name=Unknown	md5=DE8D3A1539723172E051AFA43A10058E	type=assumed_dirty	seedUrl=http://sn000331.ferozo.com/1X0veo7o.exe

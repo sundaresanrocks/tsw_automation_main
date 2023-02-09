@@ -1,0 +1,1 @@
+http://excellentweightloss-solution.com/	resultfact===QueueResultFact []queue===CustomerLogs []priority=== []memo===(Salience=0) Default - shorten, put on CustomerLogs queueorigurl=HTTP://WWW.MACC-IT.COM:80/OFAD-103  []url===www.macc-it.com []ruleMatched===(Salience=0) Default - shorten, put on CustomerLogs queue|t|

@@ -1,0 +1,5 @@
+provider_no_change
+./ScumwareHarvestWorkflow/properties/ScumwareHarvestWorkflowProvider.properties
+./ScumwareHarvestWorkflow/properties/ScumwareHarvestWorkflowFactGenerator.properties
+./ScumwareHarvestWorkflow/properties/ScumwareHarvestWorkflowRuleDirectiveProcessor.properties
+./ScumwareHarvestWorkflow/properties/ScumwareHarvestWorkflowConsumer.properties

@@ -1,0 +1,35 @@
+{
+  "youandy.com/www/TRF27082012.exe" : [ "java.util.ArrayList", [ [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "",
+    "value" : "RU",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "ip_address",
+    "value" : "213.140.96.239",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "md5",
+    "value" : "d94b66274ccdc790f163e289310d7580",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ], [ "com.securecomputing.sftools.harvester.fact.AVPairFact", {
+    "attribute" : "asn",
+    "value" : "3253",
+    "intValue" : null,
+    "doubleValue" : null,
+    "dateValue" : null,
+    "listValue" : null,
+    "booleanValue" : null
+  } ] ] ]
+}

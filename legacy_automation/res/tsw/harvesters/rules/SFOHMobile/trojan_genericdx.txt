@@ -1,0 +1,1 @@
+SampleDBScorer	http://down.clicko.co.kr/sp/signup3.exe	typeflag=2	name=Generic.dx	md5=9C78231F163FF08FB8BAD3000EF06451	type=TROJAN	seedUrl=http://down.clicko.co.kr/sp/signup3.exe

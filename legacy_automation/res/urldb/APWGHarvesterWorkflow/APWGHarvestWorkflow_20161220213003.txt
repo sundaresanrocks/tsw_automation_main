@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "contact": "support@ecrimex.net",
+    "version": "0.4.2.0",
+    "changelog_url": "https:\/\/www.ecrimex.net\/api\/changelog",
+    "documentation": "https:\/\/www.ecrimex.net\/api",
+    "request_id": 93524446,
+    "execution_time": "0.2327",
+    "generated_at": 1482287406
+  },
+  "_links": {
+    "self": {
+      "href": "\/phish?page=0&order_by=id&order=asc&mod_date_start=1482286504&mod_date_end=1577836800000&fields=ip,url,domain,confidence_level,date_discovered,brand,asn,whois_info,screenshot_url,modified"
+    },
+    "first": {
+      "href": "\/phish?page=0&order_by=id&order=asc&mod_date_start=1482286504&mod_date_end=1577836800000&fields=ip,url,domain,confidence_level,date_discovered,brand,asn,whois_info,screenshot_url,modified"
+    },
+    "last": {
+      "href": "\/phish?page=0&order_by=id&order=asc&mod_date_start=1482286504&mod_date_end=1577836800000&fields=ip,url,domain,confidence_level,date_discovered,brand,asn,whois_info,screenshot_url,modified"
+    },
+    "find": {
+      "href": "\/phish\/{?id}",
+      "templated": true
+    }
+  },
+  "total_found": 3,
+  "current_count": 3,
+  "total": 2647710,
+  "_embedded": {
+    "phish": [
+      {
+        "_links": {
+          "self": {
+            "href": "\/phish\/86463062"
+          },
+          "activities": {
+            "href": "\/phish\/86463062\/activity"
+          }
+        },
+        "id": 86463062,
+        "url": "http:\/\/automec.com.tr\/logo\/personalindexsignon.php",
+        "brand": "CIBC CIBC",
+        "confidence_level": 100,
+        "date_discovered": 1482286854,
+        "modified": 1482287047,
+        "asn": null,
+        "ip": "",
+        "domain": "automec.com.tr",
+        "screenshot_url": "",
+        "whois_info": ""
+      }
+      ]
+      }
+      }

@@ -1,0 +1,39 @@
+
+Plan
+====
+
+
+Test Dispatcher
+---------------
+
+#. Test discovery happens at server side.
+#. Discovered tests are updated in mongo collection with status queued for the corresponding run id.
+#. Test dispatcher must dispatch the tests to corresponding nodes.
+
+
+Test Runner
+-----------
+
+#. Test runner must be able to re-discover the tests in same fashion as test dispatcher.
+#. Must update relevant sates in mongo collection - started, aborted, pass, fail etc.,
+#. Must update time taken to run the test
+#. Must update log or standard stream where applicable
+
+
+Test discovery
+--------------
+
+#. Inclusions and Exclusions based on regex patters in files within products
+
+Run Time settings
+-----------------
+#. Use runtime instead of config or envcon as in web systems
+mf - mongodb based test framework !
+
+
+main folders
+- framework - mf
+- resources
+- execution
+- active project
+- django ui - mfui

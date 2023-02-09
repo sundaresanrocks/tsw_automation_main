@@ -1,0 +1,6 @@
+[wsr]
+name=WSR Internal Packages - $basearch
+baseurl=http://10.37.112.55/sftools.el5.centos/$basearch
+enabled=1
+gpgcheck=0
+metadata_expire=0

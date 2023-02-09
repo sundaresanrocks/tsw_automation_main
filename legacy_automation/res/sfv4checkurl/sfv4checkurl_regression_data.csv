@@ -1,0 +1,9 @@
+id,url,sfv4checkurl_expected_results
+1,newdomain123.com,Category = bu:Reputation=0
+2,newdomain256.com,Category = bu:Reputation=0:Reputation group=Minimal Risk
+3,newdomain6,error_result=yes
+4,*://ATHELATICHWORLD.COM,Category = Not Categorized:Reputation=53: Reputation group=Unverified
+5,google.com,Category = se:Reputation=127: Reputation group=Minimal Risk
+6,mcafee.com|HTTP://MCAFEE.COM |HTTP://WWW.MCAFEE.COM|MCAFEE.COM/123.HTML|WWW.MCAFEE.COM,"Category = bu,io,hw:Reputation=-23: Reputation group=Minimal Risk"
+7,trustedsource.org |http://trustedsource.org,"Category = bu,hw:Reputation=-127: Reputation group=Minimal Risk"
+8,trustedsource.org |mcafee.com,"Category = bu,hw:Reputation=-127: Reputation group=Minimal Risk"

@@ -1,0 +1,4 @@
+files
+./RepperTelemetryProcessorWorkflow/properties/TPProvider.properties
+./RepperTelemetryProcessorWorkflow/properties/TPWebfetcher.properties
+./RepperTelemetryProcessorWorkflow/properties/TPFactGenerator.properties

@@ -1,0 +1,2 @@
+url,_id,cl_hash,db_hash,in_alexa,in_dms,in_quantcast,in_sanity,alexa,quantcast
+*://GOOGLE.COM,c624031238f7e4915b5fbf2ec9d6b9b74e3641b936a161a4b62cdf40b242be04,0X012e8c6afcd2fd3fadf669a6,962cb790495d088406731a41,TRUE,FALSE,FALSE,FALSE,"top_1m:1,lu:2,de:1,jk:2","top_q:1,quant:2"

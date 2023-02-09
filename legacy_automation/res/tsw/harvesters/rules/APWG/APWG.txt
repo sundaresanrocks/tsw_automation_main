@@ -1,0 +1,8 @@
+"EBAY",2011-12-12 18:32:44,0,"http://miketest6.com","http%3A%2F%2Fmiketest6.com",URL
+"EBAY",2011-12-12 18:32:44,100,"http://LANDAREA.INFO","http%3A%2F%2FLANDAREA.INFO",URL
+"EBAY",2011-12-12 18:32:44,50,"http://KIZUNA.CO.JP","http%3A%2F%2FKIZUNA.CO.JP",URL
+"EBAY",2011-12-12 18:32:44,50,"http://INDIABULLS.COM","http%3A%2F%2FINDIABULLS.COM",URL
+"EBAY",2011-12-12 18:32:44,50,"https://miketest5.com","https%3A%2F%2Fmiketest5.com",URL
+"EBAY",2011-12-12 18:32:44,3,"http://miketest4.com","http%3A%2F%2Fmiketest4.com",URL
+"EBAY",2011-12-12 18:32:44,50,"http://miketest2.com/testpath","http%3A%2F%2Fmiketest2.com%2Ftestpath",URL
+"EBAY",2011-12-12 18:32:44,100,"http://miketest8.com/testpath","http%3A%2F%2Fmiketest8.com%2Ftestpath",URL

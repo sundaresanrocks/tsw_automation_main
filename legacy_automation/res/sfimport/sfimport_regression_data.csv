@@ -1,0 +1,8 @@
+id,url,sfimport_options,sfimport_results,sfv4checkurl_results,current_queue
+1,newdomain123.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0,null,null
+2,newdomain256.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Errors=1,null,null
+3,newdomain6," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -A -c bu",Total_Canon_Errors=1:Total_Successful=0,null,null
+4,*://ATHELATICHWORLD.COM," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=1,null,null
+5,google.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=0:skipped_www_ver=1,null,null
+6,mcafee.com," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=1:skipped_www_ver=1,null,null
+7,trustedsource.org," -a 81 -q 'Customer' -s Customer -H ""Customer Logs"" -f u -D -d",Total_Successful=1:Total_Errors=0:Total_Canon_Errors=0:URLs_Deleted=0:skipped_www_ver=0:skipped_cat_dn=1,null,null

@@ -1,0 +1,1 @@
+source=drtuf_eagle_exe_flat_lex_V2	url=http://1530926.softloader3.ru/defragsetup.exe	confidence=0.83	label=0

@@ -1,0 +1,3 @@
+provider_no_change
+./CleanMxVirusHarvestWorkflow/properties/CleanMxVirusHarvestWorkflowProvider.properties
+./CleanMxVirusHarvestWorkflow/properties/CleanMxVirusHarvestWorkflowConsumer.properties

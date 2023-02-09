@@ -1,0 +1,3 @@
+workTaskQueue
+scoringResultsQueue
+ratingResultsQueue

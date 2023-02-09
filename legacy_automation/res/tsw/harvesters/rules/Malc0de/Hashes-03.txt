@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rss version='2.0'>
+
+<channel>
+<title>Malc0de Database Feed</title>
+<link>http://malc0de.com/database/</link>
+<description>Updated Feed of Malicious Executables</description>
+<language>en-us</language>
+<copyright>Copyright (C) 2010 malc0de.com</copyright>
+<item>
+<title>www.wrapapp.net</title>
+<link>http://malc0de.com/database/index.php?search=www.wrapapp.net</link>
+<description>URL: www.wrapapp.net, IP Address: 213.140.96.239, Country: RU, ASN: 3253, MD5: d94b66274ccdc790f163e289310d7580</description>
+</item>
+</channel>
+</rss>

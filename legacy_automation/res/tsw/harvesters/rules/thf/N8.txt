@@ -1,0 +1,1 @@
+"EBAY",2013-01-22 05:32:44,50,"https://www.example.com:443/bar.html","https%3A%2F%2Fwww.example.com%3A443%2Fbar.html",URL

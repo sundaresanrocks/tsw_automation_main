@@ -1,0 +1,1 @@
+SampleDBScorer	http://w541836.blob2.ge.tt/streams/7zogiql/rsbot-4028.exe?sig=-tlvrttr8q5jcjf7yvjwbkardhhavcvfll4&type=download	typeflag=0	name=Unknown	md5=9F45893CFFCD9FBE8DF2FE5B31634F3F	type=assumed_dirty2	seedUrl=http://tinyurl.com/RSBot-4029

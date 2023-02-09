@@ -1,0 +1,4 @@
+ChangeType,MD5,Location,DateAdded,ID,ClassificationName,ClassificationType
+"M","F7EDB3CBC0668D2FA74C4ED5CFA18CE9","http://intva31.allegrofeature.info/dl-pure/1200543/94779001?bc=1200543&checksum=94779001&filename=adobe_flash_player.exe&cb=109448544","3/22/2016 4:36:30 PM","1732813515","Unknown","assumed_dirty4"
+"M","0425128A52E8DC9657E6ED6719EA088F","http://intva31.allegrofeature.info/dl-pure/1200543/94910233?bc=1200543&checksum=94910233&filename=adobe_flash_player.exe&cb=200826501","3/22/2016 4:36:30 PM","1732813519","Unknown","assumed_dirty4"
+"M","6475BA69A7903A019152466D197C990A","http://vfasterdownload.com/download2.php?x=3016408536319087a586ed13c867cf47&id=todipa38&title=&u=","1/30/2016 8:46:46 PM","1732225091","RDN/Generic PUP.x","PUP"

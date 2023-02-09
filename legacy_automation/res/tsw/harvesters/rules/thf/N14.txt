@@ -1,0 +1,1 @@
+"EBAY",2013-01-22 05:32:44,100,"http://www.example.com/Path%7","http%3A%2F%2Fwww.example.com%2FPath%257",URL

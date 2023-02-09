@@ -1,0 +1,3 @@
+http
+./DRSprescanHarvestWorkflow/properties/DRSprescanHarvestWorkflowProvider.properties
+./DRSprescanHarvestWorkflow/properties/DRSprescanHarvestWorkflowConsumer.properties

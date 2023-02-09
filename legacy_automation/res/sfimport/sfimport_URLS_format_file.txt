@@ -1,0 +1,7 @@
+# Example sfimport input list, in URLS format.
+# Copyright (c) 2003, Secure Computing Corporation.  All rights reserved.
+# $Id: example_URLS_format_file.txt 25 2010-04-17 00:15:30Z jwalton $
+
+http://DAVE.COM
+http://LISAJ.CA
+http://nowhere.com

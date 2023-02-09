@@ -1,0 +1,8 @@
+[epel]
+name=Extra Packages for Enterprise Linux 5 - $basearch
+baseurl=http://10.37.112.55/epel/5/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=http://10.37.112.55/epel/RPM-GPG-KEY-EPEL
+exclude=freetds* perl-Log* log4c*
+metadata_expire=0

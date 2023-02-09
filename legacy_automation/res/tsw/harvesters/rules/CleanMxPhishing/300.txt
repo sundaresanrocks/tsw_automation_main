@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<output>
+	<response>
+		<error>0</error>
+		<hits>1</hits>
+	</response>
+<entries>
+
+
+<entry>
+	<line>1</line>
+	<id>68489</id>
+	<first>1319643826</first>
+	<last>0</last>
+	<phishtank>1299603</phishtank>
+	<url><![CDATA[HTTP://TWOCS.COM]]></url>
+	<recent>up</recent>
+	<response>alive</response>
+	<ip>74.53.228.211</ip>
+	<review>74.53.228.211</review>
+	<domain>novaspromocao.com.br</domain>
+	<country>US</country>
+	<source>ARIN</source>
+	<email>abuse@theplanet.com</email>
+	<inetnum>74.52.0.0 - 74.53.255.255</inetnum>
+	<netname>NETBLK-THEPLANET-BLK-14</netname>
+	<descr><![CDATA[ThePlanet.com Internet Services, Inc. TPCM 1333 North Stemmons Freeway Suite 110 Dallas TX 75207]]></descr>
+	<ns1>ns2.blymp.com.br</ns1>
+	<ns2>ns1.blymp.com.br</ns2>
+	<ns3></ns3>
+	<ns4></ns4>
+	<ns5></ns5>
+</entry>
+
+
+</entries>
+</output>
+

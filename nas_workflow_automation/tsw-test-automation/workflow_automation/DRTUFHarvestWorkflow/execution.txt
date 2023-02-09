@@ -1,0 +1,3 @@
+files
+./DRTUFHarvestWorkflow/properties/DRTUFHarvestWorkflowProvider.properties
+./DRTUFHarvestWorkflow/properties/DRTUFHarvestWorkflowConsumer.properties

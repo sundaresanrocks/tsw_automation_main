@@ -1,0 +1,1 @@
+SampleDBScorer	http://89.163.172.58/css%20multihack%2011.02.2012.exe	typeflag=0	name=Unknown	md5=F8274C1AA266D03394F4470D594BE93D	type=assumed_dirty4	seedUrl=http://89.163.172.58/CSS%20Multihack%2011.02.2012.exe

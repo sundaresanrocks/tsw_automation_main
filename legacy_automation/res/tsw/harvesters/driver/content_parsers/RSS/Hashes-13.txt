@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rss version='2.0'>
+
+<channel>
+<title>Malc0de Database Feed</title>
+<link>http://malc0de.com/database/</link>
+<description>Updated Feed of Malicious Executables</description>
+<language>en-us</language>
+<copyright>Copyright (C) 2010 malc0de.com</copyright>
+</channel>
+</rss>

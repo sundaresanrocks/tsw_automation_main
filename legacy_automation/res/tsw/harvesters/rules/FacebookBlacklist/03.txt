@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<externalblacklistread_response xmlns="http://api.facebook.com/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://api.facebook.com/1.0/ http://api.facebook.com/1.0/facebook.xsd" list="true">
+  <externalblacklistread_response_elt>
+    <content>http://thisshouldnothappen.com</content>
+    <type>URL</type>
+    <status>SOMETHING</status>
+    <time>1404822602</time>
+  </externalblacklistread_response_elt>
+</externalblacklistread_response>

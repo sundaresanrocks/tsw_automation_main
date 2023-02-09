@@ -1,0 +1,1 @@
+"EBAY",2013-01-22 05:32:44,50,"http://www.example.com:8080/bar.html","http%3A%2F%2Fwww.example.com%3A8080%2Fbar.html",URL

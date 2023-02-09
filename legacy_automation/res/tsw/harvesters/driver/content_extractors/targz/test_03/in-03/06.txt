@@ -1,0 +1,2 @@
+ "EBAY",2013-01-22 05:32:44,50,"http://webstore.amazon.com/Newsletter/b/6393663011","http%3A%2F%2Femailruletest.com%2Fnewsletter",URL
+
